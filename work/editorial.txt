@@ -1,0 +1,100 @@
+100 Keys to Your Heart|解谜|钥匙有重量；调整拾取与放下顺序，才能打开平台关卡里的门。
+A Little to the Left|解谜|观察日常物件的形状、颜色与大小，再把凌乱场景整理妥当。
+The Baby in Yellow|恐怖|照看一个不断制造怪事的婴儿，在家中应付逐渐失控的恐怖事件。
+Blood Typers|恐怖|靠打字移动、搜物、开门和击退丧尸，也能与朋友合作求生。
+Blueprint Bob|模拟|按物理规则搭建高塔，让 Bob 爬到关卡指定高度。
+Boomerang X|动作|投掷回旋镖、瞬移到落点并利用慢动作清理高速竞技场。
+Breezy|休闲|扮演风，改变气流把高尔夫球送进洞里。
+Cappy & Tappy: Temples of Peril|解谜|水豚跳跃闯关，貘负责投下方块；双人配合穿过神庙。
+Cleaning the System|动作|只靠旋转两端带弹簧的棍子，借反弹穿过高难度关卡。
+Coasterama|模拟|设计过山车路线，同时满足乘客对速度、高度和转弯的不同要求。
+Deadly Heart Gambit|叙事|与 Alice-Sama 翻牌博弈；抽到小丑的人会输掉这场危险游戏。
+Diceomancer|策略|在卡牌战斗中掷骰改写任意数字，让伤害与资源出现意外变化。
+Frogmageddon|动作|从单只青蛙开始，一边求生一边扩编成越来越大的蛙群。
+BunnyFly: Season of Summer|休闲|扮演会飞的小兔收集花粉，制作蜂蜜与蜂蜡，并探索夏日世界。
+Clean Stack|解谜|把物件一件件堆叠起来，处理摆放与平衡问题。
+Coaster Crash Course|模拟|规划过山车轨道，尝试完成设计挑战。
+Collapse Relapse|动作|在黏土动画风格的时间循环世界里探索并解锁新路径。
+Control:Override|解谜|进入虚拟空间，改变控制规则以破解机关。
+Death in your Dice|策略|学习致命的掷骰规则，扭转结果以阻止城市被炸毁。
+Deep Snake|解谜|操控贪吃蛇穿过不合常理的空间结构。
+Dicetris|解谜|把方块下落与掷骰规则揉在一起，安排每一步的落点。
+(Dis)assemble|解谜|两人合作拆解和重组物体，找出通关方法。
+Dyestributor|解谜|把两个方块连接起来，再逐步应对各关卡新增的规则与障碍。
+Faster Bunnies|竞速|培育、管理并派出兔子参赛，组合特性养出更快的选手。
+Fragment|恐怖|在低清画风的循环空间里寻找记忆，拼出故事并尝试脱离循环。
+GIMMIKO|动作|用骰子构筑武器，在双摇杆射击战斗中对抗现实里冒出的恶魔。
+Gunslinger Express|动作|守护行进中的列车，用枪火挡下袭来的敌人。
+IM LOOPY FOR DOOP LOOPS!!!|休闲|在荒诞场景里不断寻找并收集麦片圈。
+In Space No One Can Hear You Clean|动作|用飞船磁场吸附太空垃圾，减速危险物并送进回收口。
+Loop my Crank|休闲|不停摇动曲柄，购买升级并招募帮手，让转动持续下去。
+The Gardener and the Wild Vines|动作|砍击花朵借力向上弹跳，冲上高塔救出王子。
+Globs|解谜|把立方生物沿不同方向伸缩，用尺寸变化推物与搭路。
+The Good Overlord|策略|扮演地下城领主，往英雄的路上放怪物与道具来影响旅程。
+Happenlance|动作|把长枪当支点攀爬、跨越地形，也用同一套物理操作决斗。
+Hate Me Not|动作|在黑白世界轮流担任保护者与躲弹者，反复转换攻守角色。
+How Many Dudes?|策略|招募并强化“小人”军团，推算打赢各种荒诞对手所需的人数。
+Imagine Sisyphus Happy|休闲|看西西弗推石上山，同时打字、玩小游戏并升级能力。
+Koromeke|策略|掷骰在棋盘上绕圈，选择强化效果来提高得分。
+KoroNeko|解谜|滚动可爱的方块小猫，解开短小的立体关卡。
+Mingle|解谜|在黑白人群里找到与自己长得一样的角色，变身后继续寻找。
+Molecoole|动作|把原子拼成不同分子，以新能力对抗不断涌来的敌人。
+Moonbrella|动作|用雨伞撑杆跳、抓边缘和滑翔，探索横向世界。
+Maces and Dices|策略|行动和生命都由骰子表示，利用每次投掷在地牢里求生。
+Negative Time|动作|在密集弹幕中运用时间变化躲避与反击。
+ODA|解谜|用传送球交换自己与物体的位置，破解赛博城市的平台机关。
+PhotoLoop|解谜|操作复古电脑接受委托，用照片编辑工具完成形形色色的要求。
+Roku and Rei|解谜|让两位朝相反方向移动的主角配合，破解颜色机关。
+Roll it to the End|解谜|通过掷骰改变局面，设法抵达终点。
+Scale Mail|解谜|帮冒险者打包行囊，把魔法物品安排进有限的空间。
+Side by Size|解谜|主动受伤或治疗来改变关卡布局，找出通往出口的路。
+Skyblocker|解谜|把方块一层层堆高，找到稳定且有效的结构。
+Sloop|模拟|操控帆船航行，处理船只操作中的复杂限制。
+Spaceship for Newbies|动作|只靠一个按键驾驶飞船，躲开太空废料。
+Split Happens|休闲|快速目测位置，把各种物件尽量切成相等的两半。
+Trigger of Time|叙事|以第一人称探索环境，逐步推进与时间有关的冒险。
+Wait, Is That Me?|动作|在时间循环的第一人称射击战斗中遇见过去的自己。
+Where Is My Parking Spot|竞速|控制容易打滑的汽车，设法停进指定车位。
+Willow Guard|叙事|作为守卫调查村庄的怪物袭击，同时战斗并追查真相。
+You Are The Code|解谜|把程序本身当作谜题，理解规则并写出通关逻辑。
+Ziggy's Cosmic Adventures|模拟|在 VR 飞船驾驶舱里操作设备，完成太空旅程。
+Negative Nancy|叙事|面对各式人物，只能说“不”或保持沉默，导向不同剧情。
+Neon Shift|竞速|先跑完赛道，再切换成影子追赶刚才的自己。
+Nested|解谜|把套娃角色拆开或套在一起，用不同体型解开推箱谜题。
+Omelet You Cook|策略|从传送带抓取食材，按顾客要求做出高分煎蛋。
+PortalSnake|解谜|用传送门移动贪吃蛇，处理尺寸、方向甚至复制变化。
+Press Ctrl|解谜|不断控制“正在控制另一个角色”的角色，进入递归关卡。
+Push The Cat with WASD|解谜|按字母各自的移动规则推动字符，破解屏幕上的谜题。
+Rollerdrome|动作|边溜冰边射击；靠特技补充弹药，在竞技场刷高分。
+Scale the Depths|模拟|捕鱼、刮鳞、出售，再用收入升级装备继续下潜。
+Singled Out|动作|读懂目标特征，在倒计时内从人群中找出并击中目标。
+Sisyphus Is a Bug|动作|推粪球上山，逐渐发现角色一开始就能使用的隐藏技巧。
+Slider|解谜|像滑块拼图一样移动世界区域，重排道路继续探索。
+Draftula|策略|把房间方块垒成城堡，在随机局势中兼顾高度与布局。
+First Class Rescue|解谜|一路搭出登山路径，在轻量随机闯关中营救居民。
+Galactic Diner|模拟|在星球上探索、做菜并完成小游戏，经营自己的美食旅程。
+Getting Goopy|解谜|滑行、跳跃和发射黏液，利用黏液解开平台机关。
+House Always WINS!|策略|旋转与调整三消式卡牌局面，尽量延长回合并提高分数。
+Kickochet|动作|踢出唯一的手里剑，利用墙壁反弹击败机器人并救出猫。
+Laser Guy|解谜|在办公室控制失控激光的方向，避免误伤同事并解开机关。
+Last Round at the End of the World|叙事|在民俗恐怖村庄追查神谕，通过对话决定谁将成为祭品。
+Loaded Dice|待核实|同名 Steam 游戏不止一款；作者未提供足够线索确认对应玩法。
+Looplash|动作|让技能绕着角色持续旋转，通过移动控制出手时机与站位。
+Mycelium Mayhem|策略|在小型竞技场规划一段重复执行的行动循环来击败敌人。
+Robot Reckoning|动作|用物理移动与战术操作打碎机器人，并探索其秘密。
+Songrunner|解谜|让自己创作的音乐循环变成平台，跟着节拍通过关卡。
+Splatterpus|动作|在规则固定的街机挑战中争夺高分，还要照顾虚拟宠物。
+Time Travel Shanty|动作|在被诅咒的岛屿穿梭时间，探索遗迹、战斗并搜寻宝藏。
+Sol Cesto|策略|借道具和诅咒改变运气，在随机房间里寻找安全前进路线。
+Squarepinski|解谜|只凭图像拼接正方形拼片，还能翻转、缩放或导入照片。
+Swan Song|解谜|为音乐盒编排旋律，让内部齿轮运动并引导天鹅到终点。
+Tape Man|解谜|伸缩卷尺充当平台和工具，逐步发现它与机关的互动方式。
+Tenvader|动作|射击外星敌人，把落下的方块装到飞船上获取新能力。
+TetherGeist|动作|把灵魂弹射出去再瞬移到它的位置，完成精密平台挑战。
+Threadbound|解谜|用线连接两个物体，让它们共享移动来破解平台谜题。
+Tiny Traffic|解谜|以回合制方式改变道路流向，疏导车流通过路口。
+Two-Timin' Towers|策略|塔防炮火也会击中自己；布塔时必须给角色留活路。
+UvsU: You vs. You|解谜|先作为英雄通关，再扮演反派追杀上一轮的自己。
+Word Factori|解谜|工厂只直接生产字母 I；弯折、翻转和组合它来拼出单词。
+Word Play|策略|拼单词、选强化并累积分数，尽量在一轮轮变化中存活。
+Wrangle Ranch|策略|套住农场动物获取分数，再挑选升级制造更高的计分连锁。

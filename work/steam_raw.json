@@ -1,0 +1,2485 @@
+{
+  "100 Keys to Your Heart": {
+    "choices": [
+      {
+        "name": "100 Keys To Your Heart",
+        "id": 2237350
+      }
+    ],
+    "exact": true,
+    "chosen": 2237350,
+    "details": {
+      "name": "100 Keys To Your Heart",
+      "short_description": "Figure out a way to get the correct key for every door in this sweet Puzzle Platformer game.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2237350/header.jpg?t=1766072157",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jan 16, 2023"
+      },
+      "steam_appid": 2237350,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "A Little to the Left": {
+    "choices": [
+      {
+        "name": "A Little to the Left",
+        "id": 1629520
+      }
+    ],
+    "exact": true,
+    "chosen": 1629520,
+    "details": {
+      "name": null,
+      "short_description": null,
+      "header_image": null,
+      "release_date": null,
+      "steam_appid": null,
+      "type": null,
+      "demos": null
+    }
+  },
+  "The Baby in Yellow": {
+    "choices": [
+      {
+        "name": "The Baby In Yellow",
+        "id": 2291340
+      }
+    ],
+    "exact": true,
+    "chosen": 2291340,
+    "details": {
+      "name": "The Baby In Yellow",
+      "short_description": "You've got a new babysitting job, and things are taking a turn for the weird. Feed him, read him a bedtime story, and try not to fall into his dreams. How long can you stay in control?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2291340/header.jpg?t=1763401770",
+      "release_date": {
+        "coming_soon": false,
+        "date": "May 25, 2023"
+      },
+      "steam_appid": 2291340,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Blood Typers": {
+    "choices": [
+      {
+        "name": "Blood Typers",
+        "id": 2790330
+      }
+    ],
+    "exact": true,
+    "chosen": 2790330,
+    "details": {
+      "name": "Blood Typers",
+      "short_description": "TYPE TO KILL in this survival horror adventure. Alone or with friends, explore a sprawling cursed film studio as its horror movies bleed into reality. Choose from a roster of characters then plan your escape from this bloody homage to old school horror. But remember... death is just a typo away.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2790330/ea79b87c0042ee39b446e42cdcacabc79187b0d1/header.jpg?t=1770341652",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Feb 20, 2025"
+      },
+      "steam_appid": 2790330,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 2935360,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Blueprint Bob": {
+    "choices": [
+      {
+        "name": "Blueprint Bob",
+        "id": 3215120
+      }
+    ],
+    "exact": true,
+    "chosen": 3215120,
+    "details": {
+      "name": "Blueprint Bob",
+      "short_description": "Stack, twist, and balance your way to record-breaking heights in this physics-based building puzzle platformer. Create the tallest, most daring structures imaginable, compete for high scores, design your own levels, and help Bob reach for the sky!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3215120/a612929b78d28539dac27793a4612d67db16db75/header.jpg?t=1756887605",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Aug 13, 2025"
+      },
+      "steam_appid": 3215120,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3509810,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Boomerang X": {
+    "choices": [
+      {
+        "name": "Boomerang X",
+        "id": 1170060
+      }
+    ],
+    "exact": true,
+    "chosen": 1170060,
+    "details": {
+      "name": "Boomerang X",
+      "short_description": "Harness the power of a mystical boomerang to fling yourself through the air in this acrobatic arena shooter. Slice, fly, and blast through swarms of evil creatures on an abandoned island with a cryptic past. Stay agile or meet your doom.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1170060/header.jpg?t=1771215986",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jul 8, 2021"
+      },
+      "steam_appid": 1170060,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 1519370,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Breezy": {
+    "choices": [
+      {
+        "name": "Breezy",
+        "id": 2408080
+      }
+    ],
+    "exact": true,
+    "chosen": 2408080,
+    "details": {
+      "name": "Breezy",
+      "short_description": "Golf, but you play as the wind. Harness the breeze to platform through a variety of colorful and wacky courses. Collect Golden Tees to unlock new courses and characters. Conquer holes with random modifiers in Remix Rush.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2408080/86ec911801e4b26b6b2408bba20ebcf35ab8217d/header.jpg?t=1762494413",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jun 30, 2023"
+      },
+      "steam_appid": 2408080,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 2462170,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Cappy & Tappy: Temples of Peril": {
+    "choices": [
+      {
+        "name": "Cappy & Tappy: Temples of Peril",
+        "id": 3359860
+      }
+    ],
+    "exact": true,
+    "chosen": 3359860,
+    "details": {
+      "name": "Cappy & Tappy: Temples of Peril",
+      "short_description": "Follow Cappy &amp; Tappy through their block-stacking, platforming, worldwide adventure! Stack massive blocks as Tappy to help Cappy explore, survive and escape. Play with a friend or juggle both roles solo to escape crumbling temples packed with devious traps, colossal bosses, and mysterious idols.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3359860/3b37da1adb2125b87d1985d3968d85c2a6bf8017/header.jpg?t=1788296659",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Q1 2027"
+      },
+      "steam_appid": 3359860,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3422110,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Cleaning the System": {
+    "choices": [
+      {
+        "name": "Cleaning The System",
+        "id": 1888100
+      }
+    ],
+    "exact": true,
+    "chosen": 1888100,
+    "details": {
+      "name": "Cleaning The System",
+      "short_description": "Master unpredictable mechanics and tackle challenging obstacles as you race to the finish, either against the clock or with up to 3 friends in thrilling local multiplayer.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888100/header.jpg?t=1728175844",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Aug 30, 2022"
+      },
+      "steam_appid": 1888100,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 2137490,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Coasterama": {
+    "choices": [
+      {
+        "name": "Coasterama",
+        "id": 4023850
+      }
+    ],
+    "exact": true,
+    "chosen": 4023850,
+    "details": {
+      "name": "Coasterama",
+      "short_description": "Coasterama is a short puzzle game about helping tiny guys ride the rollercoaster of their dreams. Build each rollercoaster piece by piece while meeting every tiny guys' requirements, all while figuring out how to complete the rollercoaster. ",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4023850/f756ffee5a42b2018066d77488a5dd4922a6539d/header.jpg?t=1789905542",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Oct 1, 2025"
+      },
+      "steam_appid": 4023850,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Deadly Heart Gambit": {
+    "choices": [
+      {
+        "name": "Deadly Heart Gambit",
+        "id": 3202110
+      }
+    ],
+    "exact": true,
+    "chosen": 3202110,
+    "details": {
+      "name": "Deadly Heart Gambit",
+      "short_description": "You only have 3 months left to live. Gamble for extra time in Alice-sama’s life-or-death game. Be careful — she wants to steal your heart. 🔪🔪🔪💜",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3202110/a4a11a85d8c5b40d1193f0e06b11b1e16b00516b/header.jpg?t=1790177339",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Mar 3, 2025"
+      },
+      "steam_appid": 3202110,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3356820,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Diceomancer": {
+    "choices": [
+      {
+        "name": "DICEOMANCER",
+        "id": 2501600
+      }
+    ],
+    "exact": true,
+    "chosen": 2501600,
+    "details": {
+      "name": "DICEOMANCER",
+      "short_description": "DICEOMANCER is a roguelike deck-building game. Though you long for a peaceful life, you're forced to embark on an adventure. In this world of swords, magic, and guns, make good use of your dice and deck to find a way back to tranquility! What can the dice be used for? To change... anything.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2501600/header.jpg?t=1789356561",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Oct 9, 2024"
+      },
+      "steam_appid": 2501600,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 2774550,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Frogmageddon": {
+    "choices": [
+      {
+        "name": "Frogmageddon",
+        "id": 3201190
+      }
+    ],
+    "exact": true,
+    "chosen": 3201190,
+    "details": {
+      "name": "Frogmageddon",
+      "short_description": "Become the horde in this survival game! Expand your army from a lone frog warrior to a 100+ army against the slithery snake onslaught!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3201190/header.jpg?t=1762704763",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Nov 6, 2025"
+      },
+      "steam_appid": 3201190,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "BunnyFly: Season of Summer": {
+    "choices": [
+      {
+        "name": "BunnyFly: Season of Summer",
+        "id": 4296860
+      }
+    ],
+    "exact": true,
+    "chosen": 4296860,
+    "details": {
+      "name": "BunnyFly: Season of Summer",
+      "short_description": "Fly in a relaxing world as a rare BunnyFly in this cozy collectathon! Master your flight, collect pollen, and create honey or wax to share with others. Collect Royal Jelly to strengthen your cheeks and become the next BunnyFly Queen!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296860/66b49bf4b2ce8bbb2d4f27f0de79cbbf83dad6b3/header.jpg?t=1779720006",
+      "release_date": {
+        "coming_soon": false,
+        "date": "May 25, 2026"
+      },
+      "steam_appid": 4296860,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4468260,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Clean Stack": {
+    "choices": [
+      {
+        "name": "Clean Stack",
+        "id": 3276530
+      }
+    ],
+    "exact": true,
+    "chosen": 3276530,
+    "details": {
+      "name": "Clean Stack",
+      "short_description": "« Clean Stack » is a little puzzle game that involves stacking odd-sized objects with fun physics without making anything touch the ground. There are lots of different objects. You'll also need to use potions on the objects to get through the levels, which makes the game even more challenging!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3276530/header.jpg?t=1784552353",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jan 5, 2026"
+      },
+      "steam_appid": 3276530,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Coaster Crash Course": {
+    "choices": [
+      {
+        "name": "Coaster Crash Course",
+        "id": 3962470
+      }
+    ],
+    "exact": true,
+    "chosen": 3962470,
+    "details": {
+      "name": "Coaster Crash Course",
+      "short_description": "Roller coaster design puzzle meets physics sandbox. In a series of increasingly challenging levels your task is to get creative and build all kinds of crazy coasters. Don't get too crazy, though, or physics will turn your coaster into a rocket.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962470/22c953022b877cc22d01927fbd6105144713cf46/header.jpg?t=1765801333",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Dec 10, 2025"
+      },
+      "steam_appid": 3962470,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Collapse Relapse": {
+    "choices": [
+      {
+        "name": "Collapse Relapse",
+        "id": 2005750
+      }
+    ],
+    "exact": true,
+    "chosen": 2005750,
+    "details": {
+      "name": "Collapse Relapse",
+      "short_description": "Explore and collect upgrades before the timeloop resets! Collapse Relapse is a 2D platformer where you have to think and plan out your route in order to be able to escape in time, with secrets galore!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2005750/header.jpg?t=1655891950",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jun 22, 2022"
+      },
+      "steam_appid": 2005750,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Control:Override": {
+    "choices": [
+      {
+        "name": "Control:Override",
+        "id": 1406090
+      }
+    ],
+    "exact": true,
+    "chosen": 1406090,
+    "details": {
+      "name": "Control:Override",
+      "short_description": "Control:Override is a puzzle game where you must share control between the environment and yourself. Defy Physics. Solve puzzles . Terminate the rogue AI. And perhaps confront the truth about why it went rogue.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1406090/header.jpg?t=1752336661",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Apr 20, 2021"
+      },
+      "steam_appid": 1406090,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 1434740,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Death in your Dice": {
+    "choices": [
+      {
+        "name": "Death In Your Dice",
+        "id": 3292730
+      }
+    ],
+    "exact": true,
+    "chosen": 3292730,
+    "details": {
+      "name": "Death In Your Dice",
+      "short_description": "Roll the dice… or cities die. Learn lethal rules, twist outcomes, accept the cost. One bad throw calls the bombs. Win to delay death. Lose to become a murderer. Every choice reshapes your ending. Fate is loaded. Your turn is encoded?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3292730/5ded1a393770bca1a08cad9a0c0a2b65214ed692/header.jpg?t=1786772278",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Q4 2026"
+      },
+      "steam_appid": 3292730,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3538080,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Deep Snake": {
+    "choices": [
+      {
+        "name": "Deep Snake",
+        "id": 3184250
+      }
+    ],
+    "exact": true,
+    "chosen": 3184250,
+    "details": {
+      "name": "Deep Snake",
+      "short_description": "Non-Euclidean snake where you can go forever deeper and deeper into the void... ...and if you're good enough, into the daily leaderboards",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3184250/8c9a2d02882099fc771b2c281ac85b6457312570/header.jpg?t=1755867237",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Aug 22, 2025"
+      },
+      "steam_appid": 3184250,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Dicetris": {
+    "choices": [
+      {
+        "name": "Dicetris",
+        "id": 3783580
+      }
+    ],
+    "exact": true,
+    "chosen": 3783580,
+    "details": {
+      "name": "Dicetris",
+      "short_description": "Dicetris is a falling-block puzzler with depth. Stack dice in columns, sum to hit the target, combo colors to clear overloaded stacks. Twist your strategy around special dice and rule-bending map conditions. Easy to learn. Built to master.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3783580/dcef80967f3e047d355328629e5a14c5c63b3440/header.jpg?t=1788960037",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Aug 28, 2026"
+      },
+      "steam_appid": 3783580,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4511050,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "(Dis)assemble": {
+    "choices": [
+      {
+        "name": "(Dis)assemble",
+        "id": 1870660
+      }
+    ],
+    "exact": true,
+    "chosen": 1870660,
+    "details": {
+      "name": "(Dis)assemble",
+      "short_description": "Combine characters with unique abilities in this co-op puzzle game! Together they are stronger, but apart they can be in more than one place at the same time...",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1870660/header.jpg?t=1695662359",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Sep 25, 2023"
+      },
+      "steam_appid": 1870660,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 1870680,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Dyestributor": {
+    "choices": [
+      {
+        "name": "Dyestributor",
+        "id": 2106590
+      }
+    ],
+    "exact": true,
+    "chosen": 2106590,
+    "details": {
+      "name": "Dyestributor",
+      "short_description": "Dyestributor is an indie puzzler with both simple and complicated mechanics that combine to make fun levels! You can perfect your gameplay to earn trophies or make and play custom levels in this relaxing (but admittedly difficult) puzzle game!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2106590/header.jpg?t=1756165803",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jan 13, 2023"
+      },
+      "steam_appid": 2106590,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 2397760,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Faster Bunnies": {
+    "choices": [
+      {
+        "name": "Faster Bunnies",
+        "id": 3943850
+      }
+    ],
+    "exact": true,
+    "chosen": 3943850,
+    "details": {
+      "name": "Faster Bunnies",
+      "short_description": "Raise, race and breed bunnies in a roguelike management sim like you've never experienced! Synergize your stable managers' abilities with your bunnies' natures and breed your best racers together to get faster and faster with every generation before time runs out and you face the championship race!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3943850/c5a92b9439d54e8354469a72d1b3e82dd9a8eb87/header.jpg?t=1765306455",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Oct 10, 2025"
+      },
+      "steam_appid": 3943850,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4237460,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Fragment": {
+    "choices": [
+      {
+        "name": "Heart Fragment",
+        "id": 1253880
+      },
+      {
+        "name": "un/FRAGMENT.",
+        "id": 2830870
+      },
+      {
+        "name": "Fragment Hunters",
+        "id": 1784180
+      },
+      {
+        "name": "Memory Fragment",
+        "id": 2546170
+      },
+      {
+        "name": "Fragment: A Story in Growing",
+        "id": 2573670
+      }
+    ],
+    "exact": false,
+    "chosen": 4023710,
+    "details": {
+      "name": "Fragment",
+      "short_description": "Enter the loop, explore abstract spaces, find and process bad memories to unfold your story and learn your fate. Fragment tells a story of generational trauma and addiction, you decide whether to break the loop or be consumed by it.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4023710/a40ee4581ecdfef296a4fea6083aab97e19cf38a/header.jpg?t=1768512257",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Oct 31, 2025"
+      },
+      "steam_appid": 4023710,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4077000,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "GIMMIKO": {
+    "choices": [
+      {
+        "name": "GIMMIKO",
+        "id": 2101420
+      }
+    ],
+    "exact": true,
+    "chosen": 2101420,
+    "details": {
+      "name": "GIMMIKO",
+      "short_description": "Demons from the collective subconcious are leaking into reality. Save the world from the curse of the Jabberwock in this wacky dicebuilding twinstick action roguelite!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101420/5b44b1a10c47df1da0768d677fd0e035437623d1/header.jpg?t=1771577304",
+      "release_date": {
+        "coming_soon": true,
+        "date": "To be announced"
+      },
+      "steam_appid": 2101420,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 2494640,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Gunslinger Express": {
+    "choices": [
+      {
+        "name": "Gunslinger Express",
+        "id": 2507040
+      }
+    ],
+    "exact": true,
+    "chosen": 2507040,
+    "details": {
+      "name": "Gunslinger Express",
+      "short_description": "Defend a moving train against relentless bandit attacks. Shoot enemies, repair wagons and upgrade your character as you explore diverse regions each with unique guns, enemies and upgrades.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507040/header.jpg?t=1790166046",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Dec 6, 2024"
+      },
+      "steam_appid": 2507040,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "IM LOOPY FOR DOOP LOOPS!!!": {
+    "choices": [
+      {
+        "name": "IM LOOPY FOR DOOP LOOPS!!!",
+        "id": 2953840
+      }
+    ],
+    "exact": true,
+    "chosen": 2953840,
+    "details": {
+      "name": "IM LOOPY FOR DOOP LOOPS!!!",
+      "short_description": "You are Loopy, a cereal mascot with a crazy cereal addiction! Beam mall cops and competing mascots with groceries, reclaim your cereal, and take down the bumbling Cereal Protection Task Force in this fast‑paced arcade action adventure!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2953840/e57edfcbc2e5cc42aedba97e1aea32790a0b267f/header.jpg?t=1790047091",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Dec 3, 2025"
+      },
+      "steam_appid": 2953840,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "In Space No One Can Hear You Clean": {
+    "choices": [
+      {
+        "name": "In Space No One Can Hear You Clean",
+        "id": 1677630
+      }
+    ],
+    "exact": true,
+    "chosen": 1677630,
+    "details": {
+      "name": "In Space No One Can Hear You Clean",
+      "short_description": "Velocity-driven arcade action!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677630/header.jpg?t=1628555232",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jul 27, 2021"
+      },
+      "steam_appid": 1677630,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Loop my Crank": {
+    "choices": [
+      {
+        "name": "Loop My Crank",
+        "id": 3936880
+      }
+    ],
+    "exact": true,
+    "chosen": 3936880,
+    "details": {
+      "name": "Loop My Crank",
+      "short_description": "A ridiculous clicker where cranking handles becomes a cult. Upgrade your cranks, recruit spinners, and embrace the infinite loop. Always spin. Never stop.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936880/912e4b4c9471b117e6adde6d12a088104c98b4df/header.jpg?t=1781120667",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Nov 13, 2025"
+      },
+      "steam_appid": 3936880,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3999470,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "The Gardener and the Wild Vines": {
+    "choices": [
+      {
+        "name": "The Gardener and the Wild Vines",
+        "id": 1098470
+      }
+    ],
+    "exact": true,
+    "chosen": 1098470,
+    "details": {
+      "name": "The Gardener and the Wild Vines",
+      "short_description": "Leap, slash, and climb your way to the top of magical towers in this wholesome platformer about a gay Gardener on a quest to rescue his love.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1098470/header.jpg?t=1778089194",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Sep 9, 2021"
+      },
+      "steam_appid": 1098470,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 1459060,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Globs": {
+    "choices": [
+      {
+        "name": "Globs",
+        "id": 3219110
+      }
+    ],
+    "exact": true,
+    "chosen": 3219110,
+    "details": {
+      "name": "Globs",
+      "short_description": "Meet the size-changing Globs in this colorful puzzle game. Use the curious properties of their bodies at your advantage to solve a variety of puzzles, all in a expressive pixel art aesthetic and upbeat soundtrack.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219110/header.jpg?t=1790109624",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Nov 15, 2024"
+      },
+      "steam_appid": 3219110,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "The Good Overlord": {
+    "choices": [
+      {
+        "name": "The Good Overlord",
+        "id": 2650520
+      }
+    ],
+    "exact": true,
+    "chosen": 2650520,
+    "details": {
+      "name": "The Good Overlord",
+      "short_description": "The Good Overlord is a roguelike autobattler bag-builder in which you’ll be playing as the Overlord. Instead of killing the Hero, your mission is to guide him until the end of your dungeon, where he’ll have to face you.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2650520/header.jpg?t=1757685184",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "steam_appid": 2650520,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 2652970,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Happenlance": {
+    "choices": [
+      {
+        "name": "Happenlance",
+        "id": 1663410
+      }
+    ],
+    "exact": true,
+    "chosen": 1663410,
+    "details": {
+      "name": "Happenlance",
+      "short_description": "Climb huge mountains, impale hundreds of enemies, and solve tricky physics puzzles... all using only a spear. Pole-vault yourself to victory in this epic joust-'em-up adventure — or face your friends in online co-op and PvP multiplayer!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1663410/header.jpg?t=1670073513",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Oct 22, 2021"
+      },
+      "steam_appid": 1663410,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 1769790,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Hate Me Not": {
+    "choices": [
+      {
+        "name": "Hate Me Not",
+        "id": 2534550
+      }
+    ],
+    "exact": true,
+    "chosen": 2534550,
+    "details": {
+      "name": "Hate Me Not",
+      "short_description": "A roguelike twin-stick shooter, where you defend the same thing that tries to hurt you. Venture into the side of darkness to defeat enemies before they reach the Yin-Yang. Switch to the side of light to gather energy and upgrades, before the time runs out and the next wave of monsters spawn.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2534550/header.jpg?t=1722955483",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jul 19, 2024"
+      },
+      "steam_appid": 2534550,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "How Many Dudes?": {
+    "choices": [
+      {
+        "name": "How Many Dudes?",
+        "id": 3934270
+      }
+    ],
+    "exact": true,
+    "chosen": 3934270,
+    "details": {
+      "name": "How Many Dudes?",
+      "short_description": "How many dudes does it take to beat up a gorilla? A thousand toddlers? A horse-sized duck? A GOD? Enter the Dude Ranch and find out in this roguelike dudebuilder where you recruit an army of dudes to fight ridiculous battles.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934270/a85f08013d77d40ae22c6ea972d5459de9f03d3e/header.jpg?t=1790005286",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jul 30, 2026"
+      },
+      "steam_appid": 3934270,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4248000,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Imagine Sisyphus Happy": {
+    "choices": [
+      {
+        "name": "Imagine Sisyphus Happy",
+        "id": 3959020
+      }
+    ],
+    "exact": true,
+    "chosen": 3959020,
+    "details": {
+      "name": "Imagine Sisyphus Happy",
+      "short_description": "Sisyphus is Streaming! A story-rich mixture of Streamer Simulator, Incremental game and Minigames about life, spectacle, and making the grind worth living. Push the boulder. Do tricks. Unlock new struggles. Choose your boulder, and try to Imagine Sisyphus Happy!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3959020/67d4b140b79a76dd9fa36cbe23f44168b095125b/header.jpg?t=1787261372",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "steam_appid": 3959020,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3971520,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Koromeke": {
+    "choices": [
+      {
+        "name": "KOROMEKE",
+        "id": 3946400
+      }
+    ],
+    "exact": true,
+    "chosen": 3946400,
+    "details": {
+      "name": "KOROMEKE",
+      "short_description": "There is no home for prophets. Roll the dice, master the talismans, and outwit the board to find what lurks beneath.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946400/eaae68637b90314fcfed3bd0e3917b8b75f109d2/header.jpg?t=1781803892",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "steam_appid": 3946400,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "KoroNeko": {
+    "choices": [
+      {
+        "name": "KoroNeko",
+        "id": 2543350
+      }
+    ],
+    "exact": true,
+    "chosen": 2543350,
+    "details": {
+      "name": "KoroNeko",
+      "short_description": "Roll your way through a cozy, kawaii world full of charming characters and challenging puzzles to save your siblings from Strawberry the Witch!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2543350/header.jpg?t=1783496671",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jun 28, 2024"
+      },
+      "steam_appid": 2543350,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Mingle": {
+    "choices": [
+      {
+        "name": "Mingle",
+        "id": 3782840
+      },
+      {
+        "name": "Mingle",
+        "id": 4908090
+      }
+    ],
+    "exact": true,
+    "chosen": 3782840,
+    "details": {
+      "name": "Mingle",
+      "short_description": "Mingle is a hidden object puzzle game where you move through a crowd to find your identical twin. Each match transforms you into someone new, with hundreds of chatty little characters and surprising level twists.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3782840/44b25fb121892b5d24bba594adbffd8190cf5f77/header.jpg?t=1789115678",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Q4 2026"
+      },
+      "steam_appid": 3782840,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4573340,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Molecoole": {
+    "choices": [
+      {
+        "name": "Molecoole",
+        "id": 1792170
+      }
+    ],
+    "exact": true,
+    "chosen": 1792170,
+    "details": {
+      "name": "Molecoole",
+      "short_description": "Molecoole is an action shooter roguelike. Make awesome weapons by attaching different atoms together. Defeat enemies, bosses and complete randomly generated levels! Adapt your playstyle every playthrough based on the atoms you get!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1792170/header.jpg?t=1646159614",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Feb 24, 2022"
+      },
+      "steam_appid": 1792170,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Moonbrella": {
+    "choices": [
+      {
+        "name": "Moonbrella",
+        "id": 3433800
+      }
+    ],
+    "exact": true,
+    "chosen": 3433800,
+    "details": {
+      "name": "Moonbrella",
+      "short_description": "A 2D platformer Metroidvania with deep movement and no jump button. Upgrade your umbrella to explore an abandoned planet and ascend to the moon.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3433800/347bfc9eb9c52666711a273c6fb8cf9652bbd715/header.jpg?t=1790395366",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "steam_appid": 3433800,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3581860,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Maces and Dices": {
+    "choices": [
+      {
+        "name": "Maces and Dices",
+        "id": 2434720
+      }
+    ],
+    "exact": true,
+    "chosen": 2434720,
+    "details": {
+      "name": "Maces and Dices",
+      "short_description": "Maces and Dices is a turned based rogue-like where dice decide what actions you can take, but it is up to you to make the most out of every roll. When both your healthbar and available actions consist of dice, you better hope that you have brought the right ones.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434720/header.jpg?t=1698873870",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Aug 15, 2023"
+      },
+      "steam_appid": 2434720,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Negative Time": {
+    "choices": [
+      {
+        "name": "Negative Time",
+        "id": 4229150
+      }
+    ],
+    "exact": true,
+    "chosen": 4229150,
+    "details": {
+      "name": "Negative Time",
+      "short_description": "Negative Time is a top-down shooter with bullet hell and roguelike elements where each time you get hit, you are sent further and further back in time, until you are sent into the past they tried so hard to erase. Maybe in there lies the key to your escape?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4229150/b3b14894f317e267bf45539f3c2e702535063d73/header.jpg?t=1787331737",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Aug 21, 2026"
+      },
+      "steam_appid": 4229150,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4425430,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "ODA": {
+    "choices": [
+      {
+        "name": "ODA",
+        "id": 1142240
+      }
+    ],
+    "exact": true,
+    "chosen": 1142240,
+    "details": {
+      "name": "ODA",
+      "short_description": "ODA is a retrowave-style puzzle platformer. It's smart and unusual. Can it change your perception of space, time and your own life? Hopefully not. But it can enrich your perception of space, it can challenge you with quite unusual swap-mechanics.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142240/header.jpg?t=1653398945",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Dec 21, 2021"
+      },
+      "steam_appid": 1142240,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 1165810,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "PhotoLoop": {
+    "choices": [
+      {
+        "name": "PhotoLoop",
+        "id": 4246560
+      }
+    ],
+    "exact": true,
+    "chosen": 4246560,
+    "details": {
+      "name": "PhotoLoop",
+      "short_description": "Boot up the world's oldest PC to take photo editing commissions from a colourful cast of virtual strangers. In PhotoLoop, the only thing stopping you is your imagination... and probably your entire editing interface.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246560/89a06db958afd97c325f843651b593f3d96cca1e/header.jpg?t=1785438292",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "steam_appid": 4246560,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4390140,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Roku and Rei": {
+    "choices": [
+      {
+        "name": "Roku and Rei",
+        "id": 2698700
+      }
+    ],
+    "exact": true,
+    "chosen": 2698700,
+    "details": {
+      "name": "Roku and Rei",
+      "short_description": "Dive into the world of Roku and Rei, a puzzle game where the protagonists move in reverse directions! Use their ability to interact with color-coded objects and tackle mind-bending challenges.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698700/header.jpg?t=1720440955",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jun 10, 2024"
+      },
+      "steam_appid": 2698700,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3016720,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Roll it to the End": {
+    "choices": [
+      {
+        "name": "Roll It To The End",
+        "id": 2362570
+      }
+    ],
+    "exact": true,
+    "chosen": 2362570,
+    "details": {
+      "name": "Roll It To The End",
+      "short_description": "Immerse yourself in Roll It To The End, a captivating puzzle game. Match dice numbers to reach the endpoint, encountering special platforms that trigger unique events. Utilize the builder to craft and share custom levels.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2362570/header.jpg?t=1711989925",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Apr 1, 2024"
+      },
+      "steam_appid": 2362570,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Scale Mail": {
+    "choices": [
+      {
+        "name": "Scale Mail",
+        "id": 3296300
+      }
+    ],
+    "exact": true,
+    "chosen": 3296300,
+    "details": {
+      "name": "Scale Mail",
+      "short_description": "Mr. Mail is here to help!  Come sleet or hail or magical items, help these adventurers pack their bags and receive fabulous treasure!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3296300/605c578c8b34d7228785d3bba46073edecb58348/header.jpg?t=1770497402",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jan 16, 2026"
+      },
+      "steam_appid": 3296300,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Side by Size": {
+    "choices": [
+      {
+        "name": "Side by Size",
+        "id": 2534620
+      }
+    ],
+    "exact": true,
+    "chosen": 2534620,
+    "details": {
+      "name": "Side by Size",
+      "short_description": "Side by Size is a puzzle game where taking damage and healing changes the puzzle layout. Purposefully get hurt to open the way to the exit in 100 hand crafted puzzles!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2534620/header.jpg?t=1697845353",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Sep 6, 2023"
+      },
+      "steam_appid": 2534620,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Skyblocker": {
+    "choices": [
+      {
+        "name": "Skyblocker",
+        "id": 3474920
+      }
+    ],
+    "exact": true,
+    "chosen": 3474920,
+    "details": {
+      "name": "Skyblocker",
+      "short_description": "Stack your tower as high and as fast as you can in Skyblocker, an infinitely fun and replayable physics-based 3D puzzle game. Battle the elements (and gravity), compete for a place on the online leaderboards, unlock tons of cosmetics and unique levels, or relax in Zen mode.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3474920/80cb62cf96d0d99ce8ba538523c4276a32e53d8e/header.jpg?t=1790356334",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Apr 11, 2025"
+      },
+      "steam_appid": 3474920,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 5063560,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Sloop": {
+    "choices": [
+      {
+        "name": "Sloop",
+        "id": 3948910
+      }
+    ],
+    "exact": true,
+    "chosen": 3948910,
+    "details": {
+      "name": "Sloop",
+      "short_description": "A fast-paced, sea-faring, adventure where you’ll have to learn to turn. Brave the waters!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948910/a5fdaeee600364995dbe65f00d3c3345969dc682/header.jpg?t=1782263974",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jun 23, 2026"
+      },
+      "steam_appid": 3948910,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Spaceship for Newbies": {
+    "choices": [
+      {
+        "name": "Spaceship for Newbies",
+        "id": 1568130
+      }
+    ],
+    "exact": true,
+    "chosen": 1568130,
+    "details": {
+      "name": "Spaceship for Newbies",
+      "short_description": "Fly a spaceship made of scrap through obstacles in outer space - using only one button!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1568130/header.jpg?t=1652461308",
+      "release_date": {
+        "coming_soon": false,
+        "date": "May 13, 2022"
+      },
+      "steam_appid": 1568130,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 1734290,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Split Happens": {
+    "choices": [
+      {
+        "name": "Split Happens",
+        "id": 4408560
+      },
+      {
+        "name": "Split Happens!",
+        "id": 4650730
+      }
+    ],
+    "exact": true,
+    "chosen": 4650730,
+    "details": {
+      "name": "Split Happens!",
+      "short_description": "Can you cut any object perfectly in half? Sit back, relax, and slice hundreds of objects to try and get a perfect 50/50 in this WarioWare-like cutting game!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4650730/88a47488e53f68cba7b43d3b37579c712a7ed224/header.jpg?t=1781690142",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "steam_appid": 4650730,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Trigger of Time": {
+    "choices": [
+      {
+        "name": "Trigger of Time",
+        "id": 3209760
+      }
+    ],
+    "exact": true,
+    "chosen": 3209760,
+    "details": {
+      "name": "Trigger of Time",
+      "short_description": "A vanished expedition. A forgotten underground city. Explore the echoes of a lost civilization in this short first-person adventure, and bend time to solve intricate puzzles woven into the ruins.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3209760/8a73fc6c40fef640309be060fa25d14441a66360/header.jpg?t=1778602903",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jun 6, 2025"
+      },
+      "steam_appid": 3209760,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Wait, Is That Me?": {
+    "choices": [
+      {
+        "name": "Wait, is THAT me?",
+        "id": 4002570
+      }
+    ],
+    "exact": true,
+    "chosen": 4002570,
+    "details": {
+      "name": "Wait, is THAT me?",
+      "short_description": "Your past is being looped. Whatever you did or said was recorded and will be reenacted by an exact replica of you. Team up with friends, fight enemies, upgrade your characters, and avoid your past selves.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4002570/7f2200e94a372a4f374e09f033810136c9f486ea/header.jpg?t=1777527698",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "steam_appid": 4002570,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4241620,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Where Is My Parking Spot": {
+    "choices": [
+      {
+        "name": "Where Is My Parking Spot",
+        "id": 1374400
+      }
+    ],
+    "exact": true,
+    "chosen": 1374400,
+    "details": {
+      "name": "Where Is My Parking Spot",
+      "short_description": "Where is my parking spot!? You have that urge, that drive, You MUST get to that special parking spot! Somehow when you use the brakes it also leaks brake fluid? That's normal right?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374400/header.jpg?t=1787781517",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Nov 10, 2020"
+      },
+      "steam_appid": 1374400,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 1452040,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Willow Guard": {
+    "choices": [
+      {
+        "name": "Willow Guard",
+        "id": 2377090
+      }
+    ],
+    "exact": true,
+    "chosen": 2377090,
+    "details": {
+      "name": "Willow Guard",
+      "short_description": "You are Ghweros, a Willowguard and warden of a world abandoned by Gods. In the quiet village of Woikos, something ancient stirs. Track the truth behind a trail of monster attacks. Fight with skill and strategy, shape your path through choices, and uncover secrets long buried beneath root and bone.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2377090/79c9a424c20319461e13c0b60f8d0b8381328b6f/header.jpg?t=1786360648",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Apr 10, 2025"
+      },
+      "steam_appid": 2377090,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 2798640,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "You Are The Code": {
+    "choices": [
+      {
+        "name": "You Are The Code",
+        "id": 3333330
+      }
+    ],
+    "exact": true,
+    "chosen": 3333330,
+    "details": {
+      "name": "You Are The Code",
+      "short_description": "A programming puzzle game, but YOU CAN'T TYPE. Navigate and run pre-existing lines of code! Watch out for bugs eating away your program!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333330/e6b47e4aa8a467f7126ca8be0eec87ba97cb1ac1/header.jpg?t=1786980525",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Sep 18, 2025"
+      },
+      "steam_appid": 3333330,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3628770,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Ziggy's Cosmic Adventures": {
+    "choices": [
+      {
+        "name": "Ziggy's Cosmic Adventures",
+        "id": 1501820
+      }
+    ],
+    "exact": true,
+    "chosen": 1501820,
+    "details": {
+      "name": "Ziggy's Cosmic Adventures",
+      "short_description": "Ziggy's Cosmic Adventures is a VR cockpit game combining ship management with action-arcade combat. You play as a bounty hunter with possibly questionable morals, currently in possession of a little alien that you may or may not have stolen from the evil Empire. Do you have what it takes to survive?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1501820/header.jpg?t=1719160406",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Nov 9, 2023"
+      },
+      "steam_appid": 1501820,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Negative Nancy": {
+    "choices": [
+      {
+        "name": "Negative Nancy",
+        "id": 1276750
+      }
+    ],
+    "exact": true,
+    "chosen": 1276750,
+    "details": {
+      "name": "Negative Nancy",
+      "short_description": "Negative Nancy is a choose your “no” adventure for people who have had enough. An interactive sitcom where you can only say “no” (or nothing at all). Your choices control the story.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1276750/header.jpg?t=1698047604",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Oct 13, 2021"
+      },
+      "steam_appid": 1276750,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Neon Shift": {
+    "choices": [
+      {
+        "name": "Neon Shift",
+        "id": 2671600
+      }
+    ],
+    "exact": true,
+    "chosen": 2671600,
+    "details": {
+      "name": "Neon Shift",
+      "short_description": "Neon Shift is a speedrun-focused, side-scrolling platformer with a twist! Run, jump and slide your way through official and community-created levels as fast as possible, then shift into a phantom that can uncover new routes with a dash and chase yourself down to secure a top spot on the leaderboard.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2671600/header.jpg?t=1751365751",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jul 1, 2025"
+      },
+      "steam_appid": 2671600,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Nested": {
+    "choices": [
+      {
+        "name": "Nested",
+        "id": 3752780
+      }
+    ],
+    "exact": true,
+    "chosen": 3752780,
+    "details": {
+      "name": "Nested",
+      "short_description": "Nested is a cute grid-based puzzle game made around the concept of russian nesting dolls.   Come twist your brain as you stack, push and interact with the various objects you'll find in each levels. Let's see if you can reach the right combination of nesting dolls to solve every one of them!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3752780/d2d13dce10680439f8c0172a3d6f86bed90baf26/header.jpg?t=1787284399",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Aug 20, 2026"
+      },
+      "steam_appid": 3752780,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3770940,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Omelet You Cook": {
+    "choices": [
+      {
+        "name": "Omelet You Cook",
+        "id": 3205380
+      }
+    ],
+    "exact": true,
+    "chosen": 3205380,
+    "details": {
+      "name": "Omelet You Cook",
+      "short_description": "The cozy chaotic cooking roguelike. Assemble omelets for quirky students using ingredients from a conveyor belt. Discover wacky combinations to satisfy the ever-demanding Principal Clucker.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3205380/c05dd45b6bec4c3c332be80992e112a72a813214/header.jpg?t=1788947619",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Feb 8, 2026"
+      },
+      "steam_appid": 3205380,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3291300,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "PortalSnake": {
+    "choices": [
+      {
+        "name": "PortalSnake",
+        "id": 2614480
+      }
+    ],
+    "exact": true,
+    "chosen": 2614480,
+    "details": {
+      "name": "PortalSnake",
+      "short_description": "Puzzle game about portals and snakes.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2614480/header.jpg?t=1702974077",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Dec 16, 2023"
+      },
+      "steam_appid": 2614480,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Press Ctrl": {
+    "choices": [
+      {
+        "name": "Press Ctrl",
+        "id": 1533050
+      }
+    ],
+    "exact": true,
+    "chosen": 1533050,
+    "details": {
+      "name": "Press Ctrl",
+      "short_description": "A mind-bending puzzler where your avatar controls another avatar via an in-game keyboard.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1533050/header.jpg?t=1754422356",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Mar 16, 2021"
+      },
+      "steam_appid": 1533050,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Push The Cat with WASD": {
+    "choices": [
+      {
+        "name": "Push The Cat with WASD",
+        "id": 2683570
+      }
+    ],
+    "exact": true,
+    "chosen": 2683570,
+    "details": {
+      "name": "Push The Cat with WASD",
+      "short_description": "A cat-pushing puzzle game where narratives are puzzle levels. With an emotional story and a little bit of 4th wall breaking. By pushing the cat, you are pushing the cat to think, to remember why they are stuck in this game...",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2683570/header.jpg?t=1782463238",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jun 17, 2024"
+      },
+      "steam_appid": 2683570,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 2744120,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Rollerdrome": {
+    "choices": [
+      {
+        "name": "Rollerdrome",
+        "id": 1294420
+      }
+    ],
+    "exact": true,
+    "chosen": 1294420,
+    "details": {
+      "name": "Rollerdrome",
+      "short_description": "Rollerdrome is a BAFTA award-winning third person action shooter that seamlessly blends high octane, visceral combat with fluid movement and tricking mechanics into one complementary and challenging whole, to create an original adrenaline-pumping shooter experience like no other.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1294420/header.jpg?t=1748361469",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Aug 16, 2022"
+      },
+      "steam_appid": 1294420,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Scale the Depths": {
+    "choices": [
+      {
+        "name": "Scale the Depths",
+        "id": 3198890
+      }
+    ],
+    "exact": true,
+    "chosen": 3198890,
+    "details": {
+      "name": "Scale the Depths",
+      "short_description": "Fish, scale, sell, repeat. Scale the Depths is a casual fishing game built around this simple but satisfying loop. Feed hungry customers, upgrade your gear, and uncover the many secrets hidden beneath the surface.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3198890/eef9d7cb8fba1483b79c30fd83e6fb6a83d85d6b/header.jpg?t=1790073841",
+      "release_date": {
+        "coming_soon": false,
+        "date": "May 28, 2026"
+      },
+      "steam_appid": 3198890,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3821770,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Singled Out": {
+    "choices": [
+      {
+        "name": "Singled Out",
+        "id": 1144150
+      }
+    ],
+    "exact": true,
+    "chosen": 1144150,
+    "details": {
+      "name": "Singled Out",
+      "short_description": "A quick-fire identification game. With a sniper rifle. ~ GMTK 2019 Game Jam winner, updated and improved for Steam!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144150/header.jpg?t=1745489513",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Sep 4, 2019"
+      },
+      "steam_appid": 1144150,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 1524590,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Sisyphus Is a Bug": {
+    "choices": [
+      {
+        "name": "Sisyphus Is a Bug",
+        "id": 3971000
+      }
+    ],
+    "exact": true,
+    "chosen": 3971000,
+    "details": {
+      "name": "Sisyphus Is a Bug",
+      "short_description": "As punishment for dirtying Olympus's marble halls, Sisyphus, the dung beetle, must push his ball of dung up and down Mount Olympus every day, for the rest of his life. That is, unless he can complete the seemingly impossible task of reaching Olympus before the sun sets",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971000/0d502b96ecf3ab25a5b3aac44d754db742398456/header.jpg?t=1763120663",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Nov 14, 2025"
+      },
+      "steam_appid": 3971000,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4022380,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Slider": {
+    "choices": [
+      {
+        "name": "Slider",
+        "id": 1916890
+      }
+    ],
+    "exact": true,
+    "chosen": 1916890,
+    "details": {
+      "name": "Slider",
+      "short_description": "Slide chunks of the world to solve puzzles and help others. Control an ever-growing set of tiles and mechanics. Explore nine unique areas, unravel the mysteries of the universe, and reconnect the world -- one slider at a time.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1916890/86046f9cda97d0705f779cbf2942739260d706f3/header.jpg?t=1776571109",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jul 24, 2024"
+      },
+      "steam_appid": 1916890,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Draftula": {
+    "choices": [
+      {
+        "name": "Draftula",
+        "id": 4598280
+      }
+    ],
+    "exact": true,
+    "chosen": 4598280,
+    "details": {
+      "name": "Draftula",
+      "short_description": "Build up your castle in this roguelike twist on the block-dropping puzzler! Place your rooms strategically to reach greater heights. Will you be able to build a fortress to stand the test of time, or will that pesky hero send your work crumbling to the ground?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4598280/ccd3fb19f0bb28cc51978ba4bb9cbee58ed5faa7/header.jpg?t=1785514642",
+      "release_date": {
+        "coming_soon": true,
+        "date": "To be announced"
+      },
+      "steam_appid": 4598280,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4682930,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "First Class Rescue": {
+    "choices": [
+      {
+        "name": "First Class Rescue",
+        "id": 4339970
+      }
+    ],
+    "exact": true,
+    "chosen": 4339970,
+    "details": {
+      "name": "First Class Rescue",
+      "short_description": "Climb the mountain by building your path in this cute &amp; cosy roguelite puzzle platformer. Make your way to the top of the mountain to rescue the residents of Pine Peaks!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4339970/4f5d78b638a260736ac79fd26b7948bfad660771/header.jpg?t=1772397018",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "steam_appid": 4339970,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Galactic Diner": {
+    "choices": [
+      {
+        "name": "Galactic Diner",
+        "id": 1950230
+      }
+    ],
+    "exact": true,
+    "chosen": 1950230,
+    "details": {
+      "name": "Galactic Diner",
+      "short_description": "Galactic Diner is a cooking-themed RPG full of minigame mayhem. Explore a planet full of friends, food, and mysteries, and cook your way to the top of the galaxy!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1950230/header.jpg?t=1780953947",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Q1 2027"
+      },
+      "steam_appid": 1950230,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Getting Goopy": {
+    "choices": [
+      {
+        "name": "Getting Goopy",
+        "id": 3591300
+      }
+    ],
+    "exact": true,
+    "chosen": 3591300,
+    "details": {
+      "name": "Getting Goopy",
+      "short_description": "Getting Goopy is a puzzle platformer where you can slide, jump, and shoot goo to solve various puzzles.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3591300/7e4044cba2993a252342e72cfb0cc4d7e7a14df4/header.jpg?t=1742268606",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "steam_appid": 3591300,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "House Always WINS!": {
+    "choices": [
+      {
+        "name": "House Always WINS!",
+        "id": 2805020
+      }
+    ],
+    "exact": true,
+    "chosen": 2805020,
+    "details": {
+      "name": "House Always WINS!",
+      "short_description": "House Always WINS! is a Match 3 like card game. Twist and turn to keep the game going for as long as possible and be smart about setting up the game state to earn the maximum amount of points. Play this top ten GMTK 2023 game jam title now - improved, with added content and on Steam.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2805020/header.jpg?t=1727702444",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "steam_appid": 2805020,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Kickochet": {
+    "choices": [
+      {
+        "name": "Kickochet",
+        "id": 1219530
+      }
+    ],
+    "exact": true,
+    "chosen": 1219530,
+    "details": {
+      "name": "Kickochet",
+      "short_description": "Kickochet is a tough-as-nails-lite™ action game where you skillfully kick and ricochet your only shuriken off walls, around puzzles, and through robot faces. Race the clock, rescue your ninja cat, and destroy Robo Corp before their cat memes take over the world!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1219530/header.jpg?t=1583984682",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "steam_appid": 1219530,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Laser Guy": {
+    "choices": [
+      {
+        "name": "Laser Guy",
+        "id": 3656610
+      }
+    ],
+    "exact": true,
+    "chosen": 3656610,
+    "details": {
+      "name": "Laser Guy",
+      "short_description": "A twin-stick anti-shooter where you’re maneuvering your laser around coworkers trying not to blast anyone. Just another day in the gamedev office!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3656610/1517413e9f119e420c29fb9468dfaa95d962effb/header.jpg?t=1790014684",
+      "release_date": {
+        "coming_soon": true,
+        "date": "March 2027"
+      },
+      "steam_appid": 3656610,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 5170300,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Last Round at the End of the World": {
+    "choices": [
+      {
+        "name": "Last Round at the End of the World",
+        "id": 4746890
+      },
+      {
+        "name": "Last Round at the End of the World",
+        "id": 4940590
+      }
+    ],
+    "exact": true,
+    "chosen": 4746890,
+    "details": {
+      "name": "Last Round at the End of the World",
+      "short_description": "Dream the riddle. Question the village. Choose who drowns. A poetic folk-horror game about divine messages, guilty villagers, ritual games, and the terrible cost of keeping a place safe.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4746890/9248d08f43b33c588cd9573ab89e271d6bf40fbe/header.jpg?t=1788915564",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Q3 2026"
+      },
+      "steam_appid": 4746890,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4940590,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Loaded Dice": {
+    "choices": [
+      {
+        "name": "Loaded Dice",
+        "id": 4637880
+      },
+      {
+        "name": "Loaded Dice",
+        "id": 4118100
+      }
+    ],
+    "exact": true,
+    "chosen": null,
+    "details": {}
+  },
+  "Looplash": {
+    "choices": [
+      {
+        "name": "Looplash",
+        "id": 4584190
+      }
+    ],
+    "exact": true,
+    "chosen": 4584190,
+    "details": {
+      "name": "Looplash",
+      "short_description": "Looplash is a fast-paced arcade action roguelite where your skills rotate around you in a constant loop. Move to control timing, position yourself precisely, and survive the chaos. Push the system to create builds that bend the rules.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4584190/19c8ba25a5139e24c09a3020ac7ada857163da74/header.jpg?t=1788941471",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Q1 2027"
+      },
+      "steam_appid": 4584190,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Mycelium Mayhem": {
+    "choices": [
+      {
+        "name": "Mycelium Mayhem",
+        "id": 3964740
+      }
+    ],
+    "exact": true,
+    "chosen": 3964740,
+    "details": {
+      "name": "Mycelium Mayhem",
+      "short_description": "Defeat enemies in this cozy arena by strategically building your action loop!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3964740/ec9e8a962102a5c8795f77a6d73dc62f0e9f4d5a/header.jpg?t=1756929490",
+      "release_date": {
+        "coming_soon": true,
+        "date": "To be announced"
+      },
+      "steam_appid": 3964740,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Robot Reckoning": {
+    "choices": [
+      {
+        "name": "ROBOT RECKONING",
+        "id": 3174820
+      }
+    ],
+    "exact": true,
+    "chosen": 3174820,
+    "details": {
+      "name": "ROBOT RECKONING",
+      "short_description": "This is a hardcore physics-action game that rewards skillful maneuvering and tactical thinking with satisfying, robot-smashing action! Survive long enough to learn about secret AI society, and discover the truth behind the ROBOT RECKONING.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3174820/header.jpg?t=1762718706",
+      "release_date": {
+        "coming_soon": true,
+        "date": "To be announced"
+      },
+      "steam_appid": 3174820,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Songrunner": {
+    "choices": [
+      {
+        "name": "SongRunner",
+        "id": 4100770
+      }
+    ],
+    "exact": true,
+    "chosen": 4100770,
+    "details": {
+      "name": "SongRunner",
+      "short_description": "A puzzle platformer where the platforms are your own musical loops! Navigate handcrafted stages full of puzzly platforming challenges while creating platforms in time with a high energy original soundtrack!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100770/020731b7a3ff07ad8389841684660c22e900559a/header.jpg?t=1787529626",
+      "release_date": {
+        "coming_soon": true,
+        "date": "To be announced"
+      },
+      "steam_appid": 4100770,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4313420,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Splatterpus": {
+    "choices": [
+      {
+        "name": "Splatterpus",
+        "id": 2434870
+      }
+    ],
+    "exact": true,
+    "chosen": 2434870,
+    "details": {
+      "name": "Splatterpus",
+      "short_description": "We made this entirely deterministic highscore arcade game and then added a virtual pet to it and if you feed the pet enough pancakes it explodes like the bunny in Wreck It Ralph and I just think that's a funny joke but I guess it's up to you to decide but honestly I think it's a pretty decent game.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434870/header.jpg?t=1684389576",
+      "release_date": {
+        "coming_soon": true,
+        "date": "To be announced"
+      },
+      "steam_appid": 2434870,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Time Travel Shanty": {
+    "choices": [
+      {
+        "name": "Time Travel Shanty",
+        "id": 1688140
+      }
+    ],
+    "exact": true,
+    "chosen": 1688140,
+    "details": {
+      "name": "Time Travel Shanty",
+      "short_description": "Jump back and forth through time to escape the cursed island. Explore maze-like ruins, hack and slash undead guardians and plunder lost treasure. Gather your pirate crew in this isometric, metroidvania inspired, action-adventure, but beware: your actions in the past can affect the future!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1688140/header.jpg?t=1788527998",
+      "release_date": {
+        "coming_soon": true,
+        "date": "To be announced"
+      },
+      "steam_appid": 1688140,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Sol Cesto": {
+    "choices": [
+      {
+        "name": "Sol Cesto",
+        "id": 2738490
+      }
+    ],
+    "exact": true,
+    "chosen": 2738490,
+    "details": {
+      "name": "Sol Cesto",
+      "short_description": "Sol Cesto is a tactical and frantic roguelite where mastering your luck is key. Choose a hero, upgrade them using cursed teeth and magical items, and descend to the bottom of an ever-changing dungeon. In this dark world, every action has consequences…",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2738490/d505392564204d87cd762d2cdfbd8dd30af8cfdc/header.jpg?t=1789165364",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Apr 10, 2026"
+      },
+      "steam_appid": 2738490,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Squarepinski": {
+    "choices": [
+      {
+        "name": "Squarepinski",
+        "id": 3600120
+      }
+    ],
+    "exact": true,
+    "chosen": 3600120,
+    "details": {
+      "name": "Squarepinski",
+      "short_description": "A cozy jigsaw game with a twist; every piece is the same shape, but not the same size! A low-pressure experience with chill piano music and gorgeous hand-drawn line art.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600120/e6f1495a1d094595a3247e5209003a7d5453bf52/header.jpg?t=1764534184",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Nov 30, 2025"
+      },
+      "steam_appid": 3600120,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Swan Song": {
+    "choices": [
+      {
+        "name": "Swan Song",
+        "id": 3265290
+      }
+    ],
+    "exact": true,
+    "chosen": 3265290,
+    "details": {
+      "name": "Swan Song",
+      "short_description": "Swan Song is a cozy puzzle game that invites you to slow down, listen, and reflect. Set inside a magical music box, each puzzle asks players to place notes on a musical scale. When you turn the key, the composition plays, activating platforms and opening paths that guide a small swan to safety.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3265290/ee8634572c3db5dc110a803e227b4af638fd98ca/header.jpg?t=1790262408",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jun 4, 2026"
+      },
+      "steam_appid": 3265290,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3406030,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Tape Man": {
+    "choices": [
+      {
+        "name": "Tape Man",
+        "id": 4051290
+      }
+    ],
+    "exact": true,
+    "chosen": 4051290,
+    "details": {
+      "name": "Tape Man",
+      "short_description": "Tape Man is a puzzle platformer full of hidden mechanics. Throw your tape measure and set off into a vast maze built out of puzzles. Your tape is both your platform and your obstacle — and it can do a lot more than that. You'll just have to find out.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4051290/846768f57bc93d110d0f1a35a800d704514ae8f0/header.jpg?t=1790235754",
+      "release_date": {
+        "coming_soon": true,
+        "date": "2026"
+      },
+      "steam_appid": 4051290,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4273140,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Tenvader": {
+    "choices": [
+      {
+        "name": "Tenvader",
+        "id": 3788500
+      }
+    ],
+    "exact": true,
+    "chosen": 3788500,
+    "details": {
+      "name": "Tenvader",
+      "short_description": "Tetris meets Space Invaders – Build your ship block by block while blasting alien swarms. Upgrade weapons, face evolving bosses, and survive the chaos across endless loops.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3788500/42d77f31ef4c4f76eef767bf84970721494f7aca/header.jpg?t=1774351082",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Mar 24, 2026"
+      },
+      "steam_appid": 3788500,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3959290,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "TetherGeist": {
+    "choices": [
+      {
+        "name": "TetherGeist",
+        "id": 2474430
+      }
+    ],
+    "exact": true,
+    "chosen": 2474430,
+    "details": {
+      "name": "TetherGeist",
+      "short_description": "TetherGeist is a challenging precision platformer that rewards practice and perseverance. Guide Mae and her axolotl spirit, Bao, on a wholesome coming-of-age pilgrimage while mastering Astral Projection, a tether that links Mae to her spirit and is the source of her strength.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2474430/d917674ba0c744ac89230264c63b926b374b39c4/header.jpg?t=1780680329",
+      "release_date": {
+        "coming_soon": false,
+        "date": "May 7, 2026"
+      },
+      "steam_appid": 2474430,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3273110,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Threadbound": {
+    "choices": [
+      {
+        "name": "Threadbound",
+        "id": 2218130
+      }
+    ],
+    "exact": true,
+    "chosen": 2218130,
+    "details": {
+      "name": "Threadbound",
+      "short_description": "A puzzle platformer about writing your own laws of physics. Connect properties together with magic thread to explore an abandoned city.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218130/17c9f6d1f8ddc54f271cac807ec5367c5ed2f757/header.jpg?t=1779741471",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "steam_appid": 2218130,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 2516070,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Tiny Traffic": {
+    "choices": [
+      {
+        "name": "Tiny Traffic",
+        "id": 1445980
+      }
+    ],
+    "exact": true,
+    "chosen": 1445980,
+    "details": {
+      "name": "Tiny Traffic",
+      "short_description": "Tiny Traffic is a relaxing turn-based puzzle game about re-directing the flow of traffic, in order to safely park all cars. There's no timer or score to distract you from getting lost in the puzzles.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1445980/header.jpg?t=1667036987",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Feb 25, 2021"
+      },
+      "steam_appid": 1445980,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Two-Timin' Towers": {
+    "choices": [
+      {
+        "name": "Two-Timin' Towers",
+        "id": 2229740
+      }
+    ],
+    "exact": true,
+    "chosen": 2229740,
+    "details": {
+      "name": "Two-Timin' Towers",
+      "short_description": "Two-Timin’ Towers is a tower defense game where your towers have friendly fire. Turning a classic strategy game into an out-of-control bullet hell adventure. Navigate high-intensity battlefields as you build towers, dodge bullets, defeat enemies, loot currency, and most importantly… try to survive.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2229740/header.jpg?t=1723304512",
+      "release_date": {
+        "coming_soon": true,
+        "date": "Coming soon"
+      },
+      "steam_appid": 2229740,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 3113410,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "UvsU: You vs. You": {
+    "choices": [
+      {
+        "name": "UvsU: You vs You",
+        "id": 2513270
+      }
+    ],
+    "exact": true,
+    "chosen": 2513270,
+    "details": {
+      "name": "UvsU: You vs You",
+      "short_description": "Outsmart your past self in a battle of cause and effect. Explore an interconnected clay world, discover its hidden rules, and uncover the secrets it would rather keep buried.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2513270/462b5b9196d0fbd9427a7da2f7930515cfb71157/header.jpg?t=1780135960",
+      "release_date": {
+        "coming_soon": true,
+        "date": "2026"
+      },
+      "steam_appid": 2513270,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 2519730,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Word Factori": {
+    "choices": [
+      {
+        "name": "Word Factori",
+        "id": 2072840
+      }
+    ],
+    "exact": true,
+    "chosen": 2072840,
+    "details": {
+      "name": "Word Factori",
+      "short_description": "Word Factori is a word-building game where your only resource is the letter &quot;i&quot;. Build a chain of factories to bend, rotate, reflect, and merge &quot;i&quot; into more complex letters. Discover secret letter recipes, unlock hidden word art, and optimize your factory chains for high scores.",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072840/header.jpg?t=1731270318",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Aug 3, 2023"
+      },
+      "steam_appid": 2072840,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Word Play": {
+    "choices": [
+      {
+        "name": "Word Play",
+        "id": 3586660
+      }
+    ],
+    "exact": true,
+    "chosen": 3586660,
+    "details": {
+      "name": "Word Play",
+      "short_description": "Spell words, pick perks, score points, and survive until the end. Every round is different. How far can you make it?",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3586660/b318d857debe2234751aae2c72b272323b1ebcb7/header.jpg?t=1759126753",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jul 14, 2025"
+      },
+      "steam_appid": 3586660,
+      "type": "game",
+      "demos": null
+    }
+  },
+  "Wrangle Ranch": {
+    "choices": [
+      {
+        "name": "Wrangle Ranch",
+        "id": 3974620
+      }
+    ],
+    "exact": true,
+    "chosen": 3974620,
+    "details": {
+      "name": "Wrangle Ranch",
+      "short_description": "Wrangle Animals, grow your herd, and discover game breaking combos in this fresh, farm-to-desktop, roguelike barnbuilder!",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3974620/56bed365ac2c75b08be5c9b89f6e3cd197427906/header.jpg?t=1768836129",
+      "release_date": {
+        "coming_soon": false,
+        "date": "Jan 19, 2026"
+      },
+      "steam_appid": 3974620,
+      "type": "game",
+      "demos": [
+        {
+          "appid": 4080340,
+          "description": ""
+        }
+      ]
+    }
+  }
+}
