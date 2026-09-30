@@ -1,0 +1,100 @@
+100 Keys to Your Heart|Keys have weight. Plan when to pick up and drop each one to open doors in these platforming puzzles.
+A Little to the Left|Sort everyday objects by shape, color, and size to bring order to cluttered scenes.
+The Baby in Yellow|Babysit a child who keeps causing strange events as the house turns increasingly unsettling.
+Blood Typers|Type to move, search, open doors, and fight zombies, alone or with friends.
+Blueprint Bob|Build a tower under physics constraints and help Bob reach the required height.
+Boomerang X|Throw a boomerang, teleport to it, and use slow motion to clear fast-paced arenas.
+Breezy|Play as the wind and steer a golf ball into the hole by changing the airflow.
+Cappy & Tappy: Temples of Peril|A capybara jumps while a tapir drops blocks; work together to cross the temples.
+Cleaning the System|Rotate a spring-ended rod and bounce your way through demanding levels.
+Coasterama|Design roller-coaster tracks while balancing riders' wishes for speed, height, and turns.
+Deadly Heart Gambit|Play a card-flipping game with Alice-Sama, where drawing the joker has deadly consequences.
+Diceomancer|Roll dice to rewrite numbers in card battles, changing damage and resources in surprising ways.
+Frogmageddon|Survive as a lone frog and grow an ever-larger swarm as you go.
+BunnyFly: Season of Summer|Fly as a small rabbit, gather pollen, make honey and wax, and explore a summer world.
+Clean Stack|Stack objects one by one while solving placement and balance challenges.
+Coaster Crash Course|Lay out roller-coaster tracks and tackle design challenges.
+Collapse Relapse|Explore a clay-animated world caught in a time loop and unlock new routes.
+Control:Override|Enter a virtual space and change its control rules to solve puzzles.
+Death in your Dice|Learn the rules of a deadly dice game and change the outcome to save a city.
+Deep Snake|Guide a snake through spaces that defy ordinary geometry.
+Dicetris|Combine falling blocks with dice rules and plan where each piece will land.
+(Dis)assemble|Work together to take objects apart and rebuild them to find a way through.
+Dyestributor|Link two blocks, then adapt as each level adds new rules and obstacles.
+Faster Bunnies|Breed, manage, and race rabbits, combining traits to raise faster competitors.
+Fragment|Search a looping, low-resolution world for memories, piece together the story, and escape.
+GIMMIKO|Build weapons from dice and fight demons in twin-stick battles.
+Gunslinger Express|Defend a moving train from attackers with your gunfire.
+IM LOOPY FOR DOOP LOOPS!!!|Hunt down and collect cereal loops in absurd scenes.
+In Space No One Can Hear You Clean|Use a spaceship's magnetic field to catch, slow, and recycle space junk.
+Loop my Crank|Keep turning a crank, buy upgrades, and hire helpers to sustain the motion.
+The Gardener and the Wild Vines|Slash flowers to spring upward and climb a tower to rescue a prince.
+Globs|Stretch cube-shaped creatures in different directions to push objects and build paths.
+The Good Overlord|Play a dungeon lord, placing monsters and items along a hero's route.
+Happenlance|Use a lance as a pivot to climb and cross terrain, then wield the same physics in duels.
+Hate Me Not|Take turns protecting and dodging in a black-and-white world as roles keep switching.
+How Many Dudes?|Recruit and strengthen a tiny army, then work out how many fighters each odd opponent needs.
+Imagine Sisyphus Happy|Watch Sisyphus push his rock while typing, playing mini-games, and upgrading abilities.
+Koromeke|Roll dice to circle a board and choose upgrades that increase your score.
+KoroNeko|Roll a charming cube-shaped cat through compact 3D puzzles.
+Mingle|Find someone who looks like you in a black-and-white crowd, transform, and keep searching.
+Molecoole|Combine atoms into molecules and use their new abilities against waves of enemies.
+Moonbrella|Pole-vault, grab ledges, and glide with an umbrella through a side-scrolling world.
+Maces and Dices|Actions and health are represented by dice; use each roll to survive a dungeon.
+Negative Time|Manipulate time to dodge dense bullet patterns and strike back.
+ODA|Swap places with objects using a teleportation orb to solve cyber-city platform puzzles.
+PhotoLoop|Take jobs on a retro computer and complete them with photo-editing tools.
+Roku and Rei|Coordinate two characters who move in opposite directions to solve color-based puzzles.
+Roll it to the End|Roll dice to change the situation and find a way to the finish.
+Scale Mail|Pack an adventurer's bag by fitting magical items into limited space.
+Side by Size|Take damage or heal to reshape the level and reach the exit.
+Skyblocker|Stack blocks ever higher while finding a stable, effective structure.
+Sloop|Sail a boat while managing the limits of its controls.
+Spaceship for Newbies|Pilot a spaceship with a single button and avoid space debris.
+Split Happens|Judge positions at a glance and slice objects into halves as evenly as possible.
+Trigger of Time|Explore in first person and uncover an adventure involving time.
+Wait, Is That Me?|Meet your past self in a time-looping first-person shooter.
+Where Is My Parking Spot|Steer a slippery car into a marked parking space.
+Willow Guard|Investigate monster attacks on a village as a guard, fighting and following clues.
+You Are The Code|Treat the program itself as the puzzle: understand its rules and write a solution.
+Ziggy's Cosmic Adventures|Operate equipment in a VR spaceship cockpit and complete a journey through space.
+Negative Nancy|Respond only with “no” or silence and see how conversations branch.
+Neon Shift|Finish a course, then become a shadow and chase your previous run.
+Nested|Separate and nest doll-like characters, using their sizes to solve block-pushing puzzles.
+Omelet You Cook|Grab ingredients from a conveyor belt and cook high-scoring omelets to order.
+PortalSnake|Move a snake through portals while handling changes in size, direction, and duplication.
+Press Ctrl|Control a character who controls another character, descending into recursive levels.
+Push The Cat with WASD|Push letters according to their movement rules to solve on-screen puzzles.
+Rollerdrome|Skate and shoot through arenas, replenishing ammunition with tricks and chasing high scores.
+Scale the Depths|Catch fish, scrape off scales, sell your haul, and upgrade gear before diving again.
+Singled Out|Read the target's features and spot them in a crowd before the timer runs out.
+Sisyphus Is a Bug|Push a dung ball uphill and gradually discover techniques you could use all along.
+Slider|Slide sections of the world like a tile puzzle to rearrange paths and keep exploring.
+Draftula|Stack room tiles into a castle while balancing height and layout in changing conditions.
+First Class Rescue|Build a route up a mountain and rescue residents in a light randomized challenge.
+Galactic Diner|Explore planets, cook, and play mini-games on a culinary journey.
+Getting Goopy|Slide, jump, and shoot slime to navigate platforming puzzles.
+House Always WINS!|Rotate and rearrange a match-three-style card layout to extend each run and score more.
+Kickochet|Kick your only shuriken off walls to defeat robots and rescue a cat.
+Laser Guy|Redirect an unruly office laser to solve puzzles without hitting coworkers.
+Last Round at the End of the World|Investigate an oracle in a folk-horror village and decide through dialogue who is sacrificed.
+Loaded Dice|Several Steam games share this name; the source lacks enough detail to identify the intended one.
+Looplash|Keep abilities circling your character and control their timing through movement and positioning.
+Mycelium Mayhem|Plan a short loop of actions and repeat it to defeat enemies in compact arenas.
+Robot Reckoning|Use physics-based movement and tactical combat to smash robots and uncover their secrets.
+Songrunner|Turn loops of your own music into platforms and move to the beat.
+Splatterpus|Chase high scores in a fixed-rule arcade challenge while caring for a virtual pet.
+Time Travel Shanty|Travel through time on a cursed island, exploring ruins, fighting, and seeking treasure.
+Sol Cesto|Use items and curses to change your luck as you search for safe paths through random rooms.
+Squarepinski|Assemble square image tiles using flips, scaling, or even imported photos.
+Swan Song|Compose a tune for a music box so its gears move and guide a swan to the goal.
+Tape Man|Extend and retract a tape measure as a platform and tool, discovering how it works with each obstacle.
+Tenvader|Shoot aliens and attach falling blocks to your ship for new abilities.
+TetherGeist|Launch your soul, then teleport to it to complete precise platforming challenges.
+Threadbound|Link two objects with thread so they share movement and solve platform puzzles.
+Tiny Traffic|Change road directions turn by turn to guide traffic through intersections.
+Two-Timin' Towers|Your towers can hit you too, so leave a safe route while building defenses.
+UvsU: You vs. You|Clear a level as the hero, then play the villain hunting your earlier self.
+Word Factori|A factory makes only the letter I; bend, flip, and combine it to form words.
+Word Play|Spell words, choose upgrades, and build a score while surviving changing rounds.
+Wrangle Ranch|Lasso farm animals for points and choose upgrades to set up bigger scoring chains.

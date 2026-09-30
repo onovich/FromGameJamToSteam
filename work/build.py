@@ -1,177 +1,247 @@
+"""Build complete Chinese and English static pages from one data snapshot."""
+
 import html
 import json
 from collections import Counter
 from pathlib import Path
 
 from collect import NAMES
+from i18n import CATEGORY_CODES, CATEGORY_LABELS, NOTES, SITE_URL, TEXT
 
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = json.loads((ROOT / 'work/steam_raw.json').read_text(encoding='utf-8'))
-EDITORIAL = {}
+SOURCE_URL = 'https://gmtk.substack.com/p/100-steam-games-that-started-life'
+
+EDITORIAL_ZH = {}
 for line in (ROOT / 'work/editorial.txt').read_text(encoding='utf-8').splitlines():
-    if not line.strip():
-        continue
-    name, category, description = line.split('|', 2)
-    EDITORIAL[name] = (category, description)
-assert len(NAMES) == len(EDITORIAL) == 100
-assert set(NAMES) == set(EDITORIAL)
+    if line.strip():
+        name, category, description = line.split('|', 2)
+        EDITORIAL_ZH[name] = (category, description)
+
+EDITORIAL_EN = {}
+for line in (ROOT / 'work/editorial_en.txt').read_text(encoding='utf-8').splitlines():
+    if line.strip():
+        name, description = line.split('|', 1)
+        EDITORIAL_EN[name] = description
+
+assert len(NAMES) == len(EDITORIAL_ZH) == len(EDITORIAL_EN) == 100
+assert set(NAMES) == set(EDITORIAL_ZH) == set(EDITORIAL_EN) == set(RAW)
+assert all(category in CATEGORY_CODES for category, _ in EDITORIAL_ZH.values())
 
 JAM = {
-    'Rollerdrome': (2017, "Dual Purpose Design", 'https://itch.io/jam/gmtk-jam'),
-    'Singled Out': (2019, "Only One", 'https://itch.io/jam/gmtk-2019'),
-    'Press Ctrl': (2020, "Out of Control", 'https://itch.io/jam/gmtk-2020'),
-    'Threadbound': (2021, "Joined Together", 'https://itch.io/jam/gmtk-2021'),
-    'In Space No One Can Hear You Clean': (2021, "Joined Together", 'https://itch.io/jam/gmtk-2021'),
-    'Blueprint Bob': (2024, "Built to Scale", 'https://itch.io/jam/gmtk-2024'),
-    'Nested': (2024, "Built to Scale", 'https://itch.io/jam/gmtk-2024'),
-    'Scale the Depths': (2024, "Built to Scale", 'https://itch.io/jam/gmtk-2024'),
-    'Fragment': (2025, "Loop", 'https://itch.io/jam/gmtk-2025'),
+    'Rollerdrome': (2017, 'https://itch.io/jam/gmtk-jam'),
+    'Singled Out': (2019, 'https://itch.io/jam/gmtk-2019'),
+    'Press Ctrl': (2020, 'https://itch.io/jam/gmtk-2020'),
+    'Threadbound': (2021, 'https://itch.io/jam/gmtk-2021'),
+    'In Space No One Can Hear You Clean': (2021, 'https://itch.io/jam/gmtk-2021'),
+    'Blueprint Bob': (2024, 'https://itch.io/jam/gmtk-2024'),
+    'Nested': (2024, 'https://itch.io/jam/gmtk-2024'),
+    'Scale the Depths': (2024, 'https://itch.io/jam/gmtk-2024'),
+    'Fragment': (2025, 'https://itch.io/jam/gmtk-2025'),
 }
-NOTES = {
-    'KoroNeko': '作者称原型 Qube 错过正式投稿截止。',
-    'Sol Cesto': '作者称 2022 年原型未正式投稿 Jam。',
-    'Word Play': '来自 GMTK 的 Patreon 社区内部 Jam，非公开主赛。',
-}
-H = html.escape
-SITE_URL = 'https://jam-to-steam.onovich.com/'
-PAGE_TITLE = '从 Game Jam 到 Steam｜100 款游戏数据目录'
-PAGE_DESCRIPTION = '浏览从 Game Jam 走向 Steam 的 100 款游戏，按玩法类型和发售状态筛选，查看中文玩法概述与 Steam 商店链接。'
 
-cards = []
-statuses = Counter()
-categories = Counter()
-for index, name in enumerate(NAMES, 1):
-    category, description = EDITORIAL[name]
-    item = RAW[name]
-    appid = item['chosen']
+H = html.escape
+CSS = (ROOT / 'work/style.css').read_text(encoding='utf-8')
+JS = (ROOT / 'work/ui.js').read_text(encoding='utf-8')
+
+
+def status_for(name, item):
     if name == 'Loaded Dice':
-        status = 'unknown'
-    elif name == 'A Little to the Left':
-        status = 'released'
-    else:
-        release = item['details']['release_date']
-        assert release is not None, name
-        status = 'upcoming' if release['coming_soon'] else 'released'
-    if status != 'unknown':
-        assert appid and (name == 'A Little to the Left' or item['details']['steam_appid'] == appid), name
-    statuses[status] += 1
-    categories[category] += 1
-    image = item['details'].get('header_image')
+        return 'unknown'
     if name == 'A Little to the Left':
-        image = 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1629520/header.jpg'
-    image_html = (f'<img src="{H(image)}" alt="《{H(name)}》Steam 商店封面" loading="lazy" decoding="async">'
-                  if image else '<div class="image-missing" aria-hidden="true"><span>?</span><small>封面待核实</small></div>')
-    year_html = (f'<a class="jam-year" href="{H(JAM[name][2])}" target="_blank" rel="noopener noreferrer" '
-                 f'title="查看官方 Jam 年度页">Jam {JAM[name][0]} ↗</a>'
-                 if name in JAM else '')
-    if status == 'released':
-        status_label = '已发售'
-    elif status == 'upcoming':
-        status_label = '未发售'
-    else:
-        status_label = '链接待核实'
-    steam_link = (f'<a class="steam-link" href="https://store.steampowered.com/app/{appid}/" '
-                  f'target="_blank" rel="noopener noreferrer" aria-label="在 Steam 查看 {H(name)}">Steam <span aria-hidden="true">↗</span></a>'
-                  if appid else '<span class="no-link">Steam 链接待核实</span>')
-    note_html = f'<p class="card-note">{H(NOTES[name])}</p>' if name in NOTES else ''
-    search_text = ' '.join([name, category, description, str(JAM[name][0]) if name in JAM else ''])
-    cards.append(f'''<article class="game-row" id="game-{index:03d}" data-category="{H(category)}" data-status="{status}" data-search="{H(search_text)}">
+        return 'released'
+    release = item['details']['release_date']
+    assert release is not None, name
+    return 'upcoming' if release['coming_soon'] else 'released'
+
+
+STATUSES = Counter(status_for(name, RAW[name]) for name in NAMES)
+CATEGORIES = Counter(EDITORIAL_ZH[name][0] for name in NAMES)
+assert STATUSES == {'released': 70, 'upcoming': 29, 'unknown': 1}, STATUSES
+assert sum(CATEGORIES.values()) == 100
+
+
+def render_cards(locale):
+    t = TEXT[locale]
+    cards = []
+    for index, name in enumerate(NAMES, 1):
+        category_zh, description_zh = EDITORIAL_ZH[name]
+        category = CATEGORY_CODES[category_zh]
+        category_label = CATEGORY_LABELS[locale][category_zh]
+        description = description_zh if locale == 'zh-CN' else EDITORIAL_EN[name]
+        item = RAW[name]
+        appid = item['chosen']
+        status = status_for(name, item)
+        if status != 'unknown':
+            assert appid and (name == 'A Little to the Left' or item['details']['steam_appid'] == appid), name
+
+        image = item['details'].get('header_image')
+        if name == 'A Little to the Left':
+            image = 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1629520/header.jpg'
+        image_html = (
+            f'<img src="{H(image)}" alt="{H(t["image_alt"].format(name=name))}" loading="lazy" decoding="async">'
+            if image else
+            f'<div class="image-missing" aria-hidden="true"><span>?</span><small>{H(t["image_missing"])}</small></div>'
+        )
+        year_html = (
+            f'<a class="jam-year" href="{H(JAM[name][1])}" target="_blank" rel="noopener noreferrer" '
+            f'title="{H(t["jam_year_title"])}">Jam {JAM[name][0]} ↗</a>'
+            if name in JAM else ''
+        )
+        status_label = t['link_unverified'] if status == 'unknown' else t[status]
+        steam_link = (
+            f'<a class="steam-link" href="https://store.steampowered.com/app/{appid}/" '
+            f'target="_blank" rel="noopener noreferrer" aria-label="{H(t["steam_aria"].format(name=name))}">'
+            'Steam <span aria-hidden="true">↗</span></a>'
+            if appid else f'<span class="no-link">{H(t["no_link"])}</span>'
+        )
+        note_html = f'\n        <p class="card-note">{H(NOTES[locale][name])}</p>' if name in NOTES[locale] else ''
+        search_text = ' '.join(
+            [name, category_zh, category_label, description_zh, EDITORIAL_EN[name],
+             str(JAM[name][0]) if name in JAM else '']
+        )
+        cards.append(f'''<article class="game-row" id="game-{index:03d}" data-category="{category}" data-status="{status}" data-search="{H(search_text)}">
       <div class="row-cover">{image_html}</div>
       <div class="row-main">
         <div class="row-heading"><span class="row-number">{index:02d}</span><h3>{H(name)}</h3></div>
-        <div class="row-meta"><span class="category">{H(category)}</span><span class="status {status}"><span class="status-dot" aria-hidden="true"></span>{status_label}</span>{year_html}</div>
-        <p class="mechanic">{H(description)}</p>
-        {note_html}
+        <div class="row-meta"><span class="category">{H(category_label)}</span><span class="status {status}"><span class="status-dot" aria-hidden="true"></span>{H(status_label)}</span>{year_html}</div>
+        <p class="mechanic">{H(description)}</p>{note_html}
       </div>
       <div class="row-action">{steam_link}</div>
     </article>''')
+    return ''.join(cards)
 
-assert statuses == {'released': 70, 'upcoming': 29, 'unknown': 1}, statuses
-assert sum(categories.values()) == 100
-category_buttons = '<button type="button" data-category-filter="" aria-pressed="true">全部游戏 <span>100</span></button>\n' + '\n'.join(
-    f'<button type="button" data-category-filter="{H(cat)}" aria-pressed="false">{H(cat)} <span>{count}</span></button>'
-    for cat, count in categories.most_common()
-)
 
-css = (ROOT / 'work/style.css').read_text(encoding='utf-8')
+def render_filters(locale):
+    t = TEXT[locale]
+    buttons = [
+        f'<button type="button" data-category-filter="" aria-pressed="true">{H(t["all_games"])} <span>100</span></button>'
+    ]
+    for category_zh, count in CATEGORIES.most_common():
+        label = CATEGORY_LABELS[locale][category_zh]
+        buttons.append(
+            f'<button type="button" data-category-filter="{CATEGORY_CODES[category_zh]}" '
+            f'aria-pressed="false">{H(label)} <span>{count}</span></button>'
+        )
+    return '\n'.join(buttons)
 
-js = (ROOT / 'work/ui.js').read_text(encoding='utf-8')
 
-page = f'''<!doctype html>
-<html lang="zh-CN">
+REDIRECT_SCRIPT = '''<script>
+(() => {
+  let stored = '';
+  try { stored = localStorage.getItem('jam-to-steam-language') || ''; } catch {}
+  const browser = (navigator.languages && navigator.languages[0]) || navigator.language || '';
+  const language = ['zh-CN', 'en'].includes(stored) ? stored : /^zh(?:-|$)/i.test(browser) ? 'zh-CN' : 'en';
+  const path = language === 'zh-CN' ? 'zh/' : 'en/';
+  location.replace(new URL(path + location.hash, new URL('.', location.href)));
+})();
+</script>'''
+
+
+def render_page(locale, canonical_url, nav_base, landing=False):
+    t = TEXT[locale]
+    stats_aria = t['stats_aria'].format(**STATUSES)
+    count_text = t['count'].format(visible=100, total=100)
+    category_buttons = render_filters(locale)
+    cards = render_cards(locale)
+    current_zh = ' aria-current="page"' if locale == 'zh-CN' else ''
+    current_en = ' aria-current="page"' if locale == 'en' else ''
+    schema = json.dumps(
+        {'@context': 'https://schema.org', '@type': 'WebSite',
+         'name': t['brand'], 'url': canonical_url},
+        ensure_ascii=False,
+    )
+    return f'''<!doctype html>
+<html lang="{locale}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
   <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta name="description" content="{PAGE_DESCRIPTION}">
-  <link rel="canonical" href="{SITE_URL}">
+  <meta name="description" content="{H(t['description'])}">
+  <link rel="canonical" href="{canonical_url}">
+  <link rel="alternate" hreflang="zh-CN" href="{SITE_URL}zh/">
+  <link rel="alternate" hreflang="en" href="{SITE_URL}en/">
+  <link rel="alternate" hreflang="x-default" href="{SITE_URL}">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="游戏观察">
-  <meta property="og:title" content="{PAGE_TITLE}">
-  <meta property="og:description" content="{PAGE_DESCRIPTION}">
-  <meta property="og:url" content="{SITE_URL}">
-  <title>{PAGE_TITLE}</title>
-  <script type="application/ld+json">{json.dumps({'@context': 'https://schema.org', '@type': 'WebSite', 'name': '游戏观察', 'url': SITE_URL}, ensure_ascii=False)}</script>
-  <style>{css}</style>
+  <meta property="og:site_name" content="{H(t['brand'])}">
+  <meta property="og:title" content="{H(t['title'])}">
+  <meta property="og:description" content="{H(t['description'])}">
+  <meta property="og:url" content="{canonical_url}">
+  <title>{H(t['title'])}</title>
+  <script type="application/ld+json">{schema}</script>
+{REDIRECT_SCRIPT if landing else ''}
+  <style>{CSS}</style>
 </head>
 <body>
-<a class="skip-link" href="#catalog">跳到游戏目录</a>
+<a class="skip-link" href="#catalog">{H(t['skip'])}</a>
 <header class="site-header"><div class="shell header-inner">
-  <a class="brand" href="#top">游戏观察</a>
-  <nav class="header-links" aria-label="页面导航"><a href="#catalog">游戏列表</a><a href="#method">数据说明</a></nav>
-  <div class="source-meta"><span>数据来源：</span><a href="https://gmtk.substack.com/p/100-steam-games-that-started-life" target="_blank" rel="noopener noreferrer">Game Maker's Toolkit 原文 ↗</a><span class="source-date">2026-09-26 核查</span></div>
+  <a class="brand" href="#top">{H(t['brand'])}</a>
+  <nav class="header-links" aria-label="{H(t['nav_games'])}"><a href="#catalog">{H(t['nav_games'])}</a><a href="#method">{H(t['nav_method'])}</a></nav>
+  <div class="source-meta"><span>{H(t['source_prefix'])}</span><a href="{SOURCE_URL}" target="_blank" rel="noopener noreferrer">{H(t['source_article'])}</a><span class="source-date">{H(t['verified_date'])}</span></div>
+  <nav class="language-switch" aria-label="{H(t['language_label'])}"><a href="{nav_base}zh/" data-lang="zh-CN" lang="zh-CN"{current_zh}>中</a><a href="{nav_base}en/" data-lang="en" lang="en"{current_en}>EN</a></nav>
 </div></header>
 <main id="top">
   <div class="shell">
     <section class="hero" aria-labelledby="page-title">
       <div class="hero-copy">
-        <p class="eyebrow">独立游戏数据目录</p>
-        <h1 id="page-title">从 Game Jam 到 Steam</h1>
-        <p class="hero-subtitle">100 款游戏的 Steam 去向</p>
+        <p class="eyebrow">{H(t['eyebrow'])}</p>
+        <h1 id="page-title">{H(t['hero_title'])}</h1>
+        <p class="hero-subtitle">{H(t['hero_subtitle'])}</p>
       </div>
-      <div class="hero-stats" aria-label="100款游戏的发售状态：{statuses['released']} 已发售，{statuses['upcoming']} 未发售，{statuses['unknown']} 待核实">
+      <div class="hero-stats" aria-label="{H(stats_aria)}">
         <div class="stat-items">
-          <div class="stat released" aria-label="{statuses['released']} 已发售"><strong>{statuses['released']}</strong><span>已发售</span></div>
-          <div class="stat upcoming" aria-label="{statuses['upcoming']} 未发售"><strong>{statuses['upcoming']}</strong><span>未发售</span></div>
-          <div class="stat unknown" aria-label="{statuses['unknown']} 待核实"><strong>{statuses['unknown']}</strong><span>待核实</span></div>
+          <div class="stat released" aria-label="{STATUSES['released']} {H(t['released'])}"><strong>{STATUSES['released']}</strong><span>{H(t['released'])}</span></div>
+          <div class="stat upcoming" aria-label="{STATUSES['upcoming']} {H(t['upcoming'])}"><strong>{STATUSES['upcoming']}</strong><span>{H(t['upcoming'])}</span></div>
+          <div class="stat unknown" aria-label="{STATUSES['unknown']} {H(t['unknown'])}"><strong>{STATUSES['unknown']}</strong><span>{H(t['unknown'])}</span></div>
         </div>
-        <div class="status-meter" aria-hidden="true"><span class="released" style="width:{statuses['released']}%"></span><span class="upcoming" style="width:{statuses['upcoming']}%"></span><span class="unknown" style="width:{statuses['unknown']}%"></span></div>
+        <div class="status-meter" aria-hidden="true"><span class="released" style="width:{STATUSES['released']}%"></span><span class="upcoming" style="width:{STATUSES['upcoming']}%"></span><span class="unknown" style="width:{STATUSES['unknown']}%"></span></div>
       </div>
     </section>
   </div>
   <section class="shell catalog" id="catalog" aria-labelledby="catalog-title">
-    <aside class="sidebar" aria-label="玩法类型筛选">
-      <h2>玩法类型</h2>
-      <div class="category-filters" role="group" aria-label="按玩法类型筛选">{category_buttons}</div>
-      <p class="sidebar-note">类型是为了浏览而整理的单一主标签。名单与核查口径见页面底部的数据说明。</p>
+    <aside class="sidebar" aria-label="{H(t['category_aria'])}">
+      <h2>{H(t['category_heading'])}</h2>
+      <div class="category-filters" role="group" aria-label="{H(t['category_aria'])}">{category_buttons}</div>
+      <p class="sidebar-note">{H(t['sidebar_note'])}</p>
     </aside>
     <div class="catalog-main">
       <div class="toolbar" role="search">
-        <label for="search">搜索游戏或玩法</label><input id="search" type="search" placeholder="搜索游戏或玩法" autocomplete="off">
-        <label for="status-filter">发售状态</label><select id="status-filter"><option value="">全部发售状态</option><option value="released">已发售</option><option value="upcoming">未发售</option><option value="unknown">链接待核实</option></select>
-        <button class="clear-button" id="clear-filters" type="button">清除筛选</button>
+        <label for="search">{H(t['search_label'])}</label><input id="search" type="search" placeholder="{H(t['search_label'])}" autocomplete="off">
+        <label for="status-filter">{H(t['status_filter_label'])}</label><select id="status-filter"><option value="">{H(t['all_statuses'])}</option><option value="released">{H(t['released'])}</option><option value="upcoming">{H(t['upcoming'])}</option><option value="unknown">{H(t['link_unverified'])}</option></select>
+        <button class="clear-button" id="clear-filters" type="button">{H(t['clear'])}</button>
       </div>
-      <div class="list-heading"><h2 id="catalog-title">游戏目录</h2><p>按来源清单顺序</p><span class="result-count" id="result-count" role="status" aria-live="polite">显示 100 / 100 款</span></div>
-      <div class="game-list" id="game-list">{''.join(cards)}</div>
-      <p class="empty-state" id="empty-state" hidden>没有符合条件的游戏。试试更短的关键词，或清除筛选。</p>
+      <div class="list-heading"><h2 id="catalog-title">{H(t['catalog'])}</h2><p>{H(t['source_order'])}</p><span class="result-count" id="result-count" role="status" aria-live="polite" data-template="{H(t['count'])}">{H(count_text)}</span></div>
+      <div class="game-list" id="game-list">{cards}</div>
+      <p class="empty-state" id="empty-state" hidden>{H(t['empty'])}</p>
     </div>
   </section>
-  <section class="shell method" id="method" aria-label="数据说明">
-    <details><summary>数据来源与统计口径</summary><div class="method-content">
-      <p>这 100 款名称取自 <a href="https://gmtk.substack.com/p/100-steam-games-that-started-life" target="_blank" rel="noopener noreferrer">Game Maker's Toolkit 作者文字版</a>，包括文中的快速点名。本站是独立整理，与原作者没有隶属关系；这份清单不是所有 Jam 作品的成功率统计。</p>
-      <p>Steam 链接与发售状态核查于 2026-09-26：99 款有明确对应的商店页；《Loaded Dice》存在不同开发者的同名作品，暂不附链接。状态会随时间变化。类型是编辑性主标签，不代表 Steam 官方分类；Jam 年份仅在有可靠来源时显示。</p>
-      <p>每款玩法概述依据原文与 Steam 官方介绍整理。Steam 封面由官方图片地址载入，网络不可用时仍可阅读文字。</p>
+  <section class="shell method" id="method" aria-label="{H(t['nav_method'])}">
+    <details><summary>{H(t['method_heading'])}</summary><div class="method-content">
+      <p>{H(t['method_intro_before'])}<a href="{SOURCE_URL}" target="_blank" rel="noopener noreferrer">{H(t['method_source_name'])}</a>{H(t['method_intro_after'])}</p>
+      <p>{H(t['method_status'])}</p>
+      <p>{H(t['method_covers'])}</p>
     </div></details>
   </section>
 </main>
-<footer class="site-footer"><div class="shell"><span>独立中文整理 · 数据核查：2026-09-26</span><span>游戏名称与封面归各开发者及发行方所有</span></div></footer>
-<script>{js}</script>
+<footer class="site-footer"><div class="shell"><span>{H(t['footer_snapshot'])}</span><span>{H(t['footer_right'])}</span></div></footer>
+<script>{JS}</script>
 </body></html>'''
 
-out = ROOT / 'outputs/game-jam-to-steam-100.html'
-out.parent.mkdir(exist_ok=True)
-out.write_text(page, encoding='utf-8')
-print(out)
-print('statuses', dict(statuses), 'categories', dict(categories), 'bytes', out.stat().st_size)
+
+OUTPUTS = {
+    ROOT / 'outputs/index.html': render_page('zh-CN', f'{SITE_URL}zh/', './', landing=True),
+    ROOT / 'outputs/zh/index.html': render_page('zh-CN', f'{SITE_URL}zh/', '../'),
+    ROOT / 'outputs/en/index.html': render_page('en', f'{SITE_URL}en/', '../'),
+}
+for path, page in OUTPUTS.items():
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(page, encoding='utf-8')
+    print(path, 'bytes', path.stat().st_size)
+
+# Keep the old local preview address usable while the published root routes by language.
+(ROOT / 'outputs/game-jam-to-steam-100.html').write_text(
+    OUTPUTS[ROOT / 'outputs/index.html'], encoding='utf-8'
+)
+print('statuses', dict(STATUSES), 'categories', dict(CATEGORIES))

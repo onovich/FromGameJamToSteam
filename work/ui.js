@@ -6,6 +6,7 @@
   const count = document.getElementById('result-count');
   const empty = document.getElementById('empty-state');
   const clear = document.getElementById('clear-filters');
+  const languageLinks = [...document.querySelectorAll('[data-lang]')];
   let category = '';
 
   const normalize = value => value.normalize('NFKC').toLocaleLowerCase().trim();
@@ -20,7 +21,9 @@
       row.hidden = !matches;
       if (matches) visible++;
     }
-    count.textContent = `显示 ${visible} / ${rows.length} 款`;
+    count.textContent = count.dataset.template
+      .replace('{visible}', visible)
+      .replace('{total}', rows.length);
     empty.hidden = visible !== 0;
   }
 
@@ -39,5 +42,8 @@
     apply();
     search.focus();
   });
+  languageLinks.forEach(link => link.addEventListener('click', () => {
+    try { localStorage.setItem('jam-to-steam-language', link.dataset.lang); } catch {}
+  }));
   apply();
 })();
