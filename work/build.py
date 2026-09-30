@@ -12,6 +12,8 @@ from i18n import CATEGORY_CODES, CATEGORY_LABELS, NOTES, SITE_URL, TEXT
 ROOT = Path(__file__).resolve().parent.parent
 RAW = json.loads((ROOT / 'work/steam_raw.json').read_text(encoding='utf-8'))
 SOURCE_URL = 'https://gmtk.substack.com/p/100-steam-games-that-started-life'
+SITE_NAME = '游戏观察'
+SOCIAL_IMAGE_URL = f'{SITE_URL}social-preview.png'
 
 EDITORIAL_ZH = {}
 for line in (ROOT / 'work/editorial.txt').read_text(encoding='utf-8').splitlines():
@@ -79,8 +81,11 @@ def render_cards(locale):
         image = item['details'].get('header_image')
         if name == 'A Little to the Left':
             image = 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1629520/header.jpg'
+        loading = 'eager' if index <= 2 else 'lazy'
+        priority = ' fetchpriority="high"' if index == 1 else ''
         image_html = (
-            f'<img src="{H(image)}" alt="{H(t["image_alt"].format(name=name))}" loading="lazy" decoding="async">'
+            f'<img src="{H(image)}" alt="{H(t["image_alt"].format(name=name))}" '
+            f'width="460" height="215" loading="{loading}"{priority} decoding="async">'
             if image else
             f'<div class="image-missing" aria-hidden="true"><span>?</span><small>{H(t["image_missing"])}</small></div>'
         )
@@ -139,7 +144,7 @@ REDIRECT_SCRIPT = '''<script>
 </script>'''
 
 
-def render_page(locale, canonical_url, nav_base, landing=False):
+def render_page(locale, canonical_url, nav_base):
     t = TEXT[locale]
     stats_aria = t['stats_aria'].format(**STATUSES)
     count_text = t['count'].format(visible=100, total=100)
@@ -147,31 +152,49 @@ def render_page(locale, canonical_url, nav_base, landing=False):
     cards = render_cards(locale)
     current_zh = ' aria-current="page"' if locale == 'zh-CN' else ''
     current_en = ' aria-current="page"' if locale == 'en' else ''
-    schema = json.dumps(
-        {'@context': 'https://schema.org', '@type': 'WebSite',
-         'name': t['brand'], 'url': canonical_url},
-        ensure_ascii=False,
-    )
+    schema = json.dumps({
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        'name': t['title'],
+        'description': t['description'],
+        'url': canonical_url,
+        'inLanguage': locale,
+        'isPartOf': {'@id': f'{SITE_URL}#website'},
+        'isBasedOn': SOURCE_URL,
+    }, ensure_ascii=False)
+    og_locale = 'zh_CN' if locale == 'zh-CN' else 'en_US'
+    og_other_locale = 'en_US' if locale == 'zh-CN' else 'zh_CN'
     return f'''<!doctype html>
 <html lang="{locale}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#081b2d">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="description" content="{H(t['description'])}">
   <link rel="canonical" href="{canonical_url}">
+  <link rel="icon" type="image/svg+xml" href="{SITE_URL}favicon.svg">
   <link rel="alternate" hreflang="zh-CN" href="{SITE_URL}zh/">
   <link rel="alternate" hreflang="en" href="{SITE_URL}en/">
   <link rel="alternate" hreflang="x-default" href="{SITE_URL}">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="{H(t['brand'])}">
+  <meta property="og:site_name" content="{SITE_NAME}">
+  <meta property="og:locale" content="{og_locale}">
+  <meta property="og:locale:alternate" content="{og_other_locale}">
   <meta property="og:title" content="{H(t['title'])}">
   <meta property="og:description" content="{H(t['description'])}">
   <meta property="og:url" content="{canonical_url}">
+  <meta property="og:image" content="{SOCIAL_IMAGE_URL}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{H(t['social_alt'])}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{H(t['title'])}">
+  <meta name="twitter:description" content="{H(t['description'])}">
+  <meta name="twitter:image" content="{SOCIAL_IMAGE_URL}">
   <title>{H(t['title'])}</title>
   <script type="application/ld+json">{schema}</script>
-{REDIRECT_SCRIPT if landing else ''}
   <style>{CSS}</style>
 </head>
 <body>
@@ -230,8 +253,72 @@ def render_page(locale, canonical_url, nav_base, landing=False):
 </body></html>'''
 
 
+def render_landing():
+    """Keep the root a distinct, crawlable language selector when JS is unavailable."""
+    title = 'From Game Jam to Steam | 中文与 English'
+    description = 'Explore 100 games from Game Jam to Steam in English or Chinese. 浏览 100 款从 Game Jam 走向 Steam 的游戏。'
+    schema = json.dumps({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        '@id': f'{SITE_URL}#website',
+        'url': SITE_URL,
+        'name': SITE_NAME,
+        'alternateName': 'Game Observatory',
+        'inLanguage': ['zh-CN', 'en'],
+    }, ensure_ascii=False)
+    return f'''<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#081b2d">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="description" content="{H(description)}">
+  <link rel="canonical" href="{SITE_URL}">
+  <link rel="icon" type="image/svg+xml" href="{SITE_URL}favicon.svg">
+  <link rel="alternate" hreflang="zh-CN" href="{SITE_URL}zh/">
+  <link rel="alternate" hreflang="en" href="{SITE_URL}en/">
+  <link rel="alternate" hreflang="x-default" href="{SITE_URL}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{SITE_NAME}">
+  <meta property="og:title" content="{H(title)}">
+  <meta property="og:description" content="{H(description)}">
+  <meta property="og:url" content="{SITE_URL}">
+  <meta property="og:image" content="{SOCIAL_IMAGE_URL}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="100 games shown as a grid of release status markers">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{H(title)}">
+  <meta name="twitter:description" content="{H(description)}">
+  <meta name="twitter:image" content="{SOCIAL_IMAGE_URL}">
+  <title>{H(title)}</title>
+  <script type="application/ld+json">{schema}</script>
+{REDIRECT_SCRIPT}
+  <style>{CSS}
+  .language-landing {{ max-width: 760px; padding: clamp(70px, 12vw, 150px) 0; }}
+  .language-landing h1 {{ margin-bottom: 16px; }}
+  .language-landing p {{ color: var(--muted); }}
+  .language-choices {{ display: flex; flex-wrap: wrap; gap: 12px; margin-top: 35px; }}
+  .language-choices a {{ min-width: 200px; padding: 20px 24px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); color: var(--text); text-decoration: none; font-weight: 700; }}
+  .language-choices a:hover {{ border-color: var(--cyan); color: var(--cyan); }}
+  </style>
+</head>
+<body>
+<header class="site-header"><div class="shell header-inner"><span class="brand">{SITE_NAME} / Game Observatory</span></div></header>
+<main class="shell language-landing">
+  <p class="eyebrow">INDEPENDENT GAME DATA DIRECTORY</p>
+  <h1>From Game Jam to Steam</h1>
+  <p>Explore the Steam journey of 100 games. <span lang="zh-CN">查看 100 款游戏的 Steam 去向。</span></p>
+  <nav class="language-choices" aria-label="Choose language / 选择语言"><a href="./zh/" lang="zh-CN">中文版 ↗</a><a href="./en/" lang="en">English version ↗</a></nav>
+  <p>Source: <a href="{SOURCE_URL}" target="_blank" rel="noopener noreferrer">Game Maker's Toolkit article</a>. Independent compilation.</p>
+</main>
+</body></html>'''
+
+
 OUTPUTS = {
-    ROOT / 'outputs/index.html': render_page('zh-CN', f'{SITE_URL}zh/', './', landing=True),
+    ROOT / 'outputs/index.html': render_landing(),
     ROOT / 'outputs/zh/index.html': render_page('zh-CN', f'{SITE_URL}zh/', '../'),
     ROOT / 'outputs/en/index.html': render_page('en', f'{SITE_URL}en/', '../'),
 }

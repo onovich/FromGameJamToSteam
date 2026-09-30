@@ -45,7 +45,7 @@ NOTES = {
 TEXT = {
     'zh-CN': {
         'title': '从 Game Jam 到 Steam｜100 款游戏数据目录',
-        'description': '浏览从 Game Jam 走向 Steam 的 100 款游戏，按玩法类型和发售状态筛选，查看中文玩法概述与 Steam 商店链接。',
+        'description': '独立整理 Game Maker’s Toolkit 作者文章提及的 100 款游戏，查看 Steam 发售状态、玩法类型和已核实商店链接。数据核查于 2026-09-26。',
         'brand': '游戏观察',
         'skip': '跳到游戏目录',
         'nav_games': '游戏列表',
@@ -87,10 +87,11 @@ TEXT = {
         'jam_year_title': '查看官方 Jam 年度页',
         'steam_aria': '在 Steam 查看 {name}',
         'no_link': 'Steam 链接待核实',
+        'social_alt': '100 款游戏的发售状态以等大的卡片和统计色条呈现',
     },
     'en': {
         'title': 'From Game Jam to Steam | A directory of 100 games',
-        'description': 'Explore 100 games that went from Game Jams to Steam. Filter by genre and release status, read concise game summaries, and visit their Steam pages.',
+        'description': 'An independent directory of 100 games named in a Game Maker’s Toolkit article. Explore Steam release status, genres, game summaries, and verified store links. Checked Sep 26, 2026.',
         'brand': 'Game Observatory',
         'skip': 'Skip to game directory',
         'nav_games': 'Games',
@@ -132,6 +133,7 @@ TEXT = {
         'jam_year_title': 'View the official Jam year page',
         'steam_aria': 'View {name} on Steam',
         'no_link': 'Steam link unverified',
+        'social_alt': 'Release status of 100 games shown as equal-sized cards and a status bar',
     },
 }
 
